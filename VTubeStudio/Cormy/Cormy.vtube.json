@@ -674,7 +674,7 @@
       "HotkeyID": "b3cd32ed58965cedb719c9db79e90d81",
       "Name": "招手",
       "Action": "TriggerAnimation",
-      "File": "Motions/wave.motion3.json",
+      "File": "wave.motion3.json",
       "Folder": "可米动作",
       "Triggers": {
         "Trigger1": "",
@@ -695,7 +695,7 @@
       "HotkeyID": "2df01980f7fa5022a18d35f774c55754",
       "Name": "双手欢呼",
       "Action": "TriggerAnimation",
-      "File": "Motions/cheer.motion3.json",
+      "File": "cheer.motion3.json",
       "Folder": "可米动作",
       "Triggers": {
         "Trigger1": "",
@@ -716,7 +716,7 @@
       "HotkeyID": "22566cf33f445b6f9278fd8dc966ff17",
       "Name": "害羞收手",
       "Action": "TriggerAnimation",
-      "File": "Motions/shyHands.motion3.json",
+      "File": "shyHands.motion3.json",
       "Folder": "可米动作",
       "Triggers": {
         "Trigger1": "",
@@ -737,7 +737,7 @@
       "HotkeyID": "4297100292565163903e0f65b06edf87",
       "Name": "轻摆腿",
       "Action": "TriggerAnimation",
-      "File": "Motions/littleStep.motion3.json",
+      "File": "littleStep.motion3.json",
       "Folder": "可米动作",
       "Triggers": {
         "Trigger1": "",
@@ -758,7 +758,7 @@
       "HotkeyID": "4a21c1ab4afc511d8ed19077332205a6",
       "Name": "耳朵轻抖",
       "Action": "TriggerAnimation",
-      "File": "Motions/earFlick.motion3.json",
+      "File": "earFlick.motion3.json",
       "Folder": "可米动作",
       "Triggers": {
         "Trigger1": "",
@@ -779,7 +779,7 @@
       "HotkeyID": "66950c2f5ec45ddebe3bb415017f79e2",
       "Name": "气鼓鼓动作",
       "Action": "TriggerAnimation",
-      "File": "Motions/poutBounce.motion3.json",
+      "File": "poutBounce.motion3.json",
       "Folder": "可米动作",
       "Triggers": {
         "Trigger1": "",

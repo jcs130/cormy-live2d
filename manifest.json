@@ -5,7 +5,7 @@
   "mocSha256": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134",
   "createdAt": "2026-10-10T08:44:37.594490+00:00",
   "runtimeFileCount": 56,
-  "fileCount": 189,
+  "fileCount": 193,
   "files": [
     {
       "path": ".gitattributes",
@@ -69,8 +69,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4497,
-      "sha256": "702fa43c9f99089543d7d1bc2b2b300661e9f59c38ff14ddbc66116c3663c59f"
+      "bytes": 5167,
+      "sha256": "21f81102b9e1f496043b84e4a5a17e8bcb566c013ccb1111cb1f10837c937306"
     },
     {
       "path": "scripts/BuildCormy.java",
@@ -104,8 +104,8 @@
     },
     {
       "path": "scripts/repair_vts_config.py",
-      "bytes": 1263,
-      "sha256": "45dc0e95eba9770422c9a77e57bb6cff840eb998056c91ac9e1ae575448383a5"
+      "bytes": 1794,
+      "sha256": "81ffb5972eaceaebcdf3a35b23d4755d3ce961b2996a0dd7b61329a8e21a06e7"
     },
     {
       "path": "scripts/restore-runtime-inputs.py",
@@ -389,8 +389,8 @@
     },
     {
       "path": "source/runtime-inputs/Cormy.vtube.json",
-      "bytes": 23472,
-      "sha256": "ebbf5060965a7e3e0c496bd88f6130937287cb7570958b7c1c5993106b1f9e5f"
+      "bytes": 23424,
+      "sha256": "3b0c234ecfbdff5d30ab885f2f977e17f3e6e2a7cf6a7e47f185710b72facb67"
     },
     {
       "path": "source/runtime-inputs/cortico.profile.json",
@@ -724,8 +724,8 @@
     },
     {
       "path": "VTubeStudio/Cormy/Cormy.vtube.json",
-      "bytes": 23472,
-      "sha256": "ebbf5060965a7e3e0c496bd88f6130937287cb7570958b7c1c5993106b1f9e5f"
+      "bytes": 23424,
+      "sha256": "3b0c234ecfbdff5d30ab885f2f977e17f3e6e2a7cf6a7e47f185710b72facb67"
     },
     {
       "path": "VTubeStudio/Cormy/cortico.profile.json",
@@ -951,7 +951,32 @@
       "path": "VTubeStudio/Cormy/Motions/wave.motion3.json",
       "bytes": 1375,
       "sha256": "c93e16efdf13963bdec7d9bd43cc53673a6bb94a1acde82d06a5c7bf244300b4"
+    },
+    {
+      "path": "docs/character-persona.md",
+      "bytes": 10281,
+      "sha256": "32636dd20e78fc12323f399fe86f8b4ecd3916b003e74fa954a8b5f2034a61bd"
+    },
+    {
+      "path": "docs/performance-guide.md",
+      "bytes": 4850,
+      "sha256": "df343e972308be13cf846f29e67e10707cc17a41789c57e929b45403677f48ac"
+    },
+    {
+      "path": "docs/persona-core.txt",
+      "bytes": 1824,
+      "sha256": "629c908f90b07dd49392b86e181dda159f711d94498a7c4d0974ab3b1d12d69d"
+    },
+    {
+      "path": "validation/vts-native-actions.json",
+      "bytes": 5577,
+      "sha256": "667d049a74155c8d72b800667dfbe987830ce93866dcb248258b07fa41c07093"
     }
   ],
-  "manifestSelfHashIncluded": false
+  "manifestSelfHashIncluded": false,
+  "workingTreeUpdate": {
+    "at": "2026-10-10T17:35:33.327898+00:00",
+    "status": "unreleased",
+    "description": "Character persona, performance guidance, and verified native-animation hotkey filename repair; model geometry unchanged."
+  }
 }

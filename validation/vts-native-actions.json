@@ -1,0 +1,197 @@
+{
+  "at": "2026-10-10T17:32:42.962527+00:00",
+  "endedAt": "2026-10-10T17:33:07.767781+00:00",
+  "scope": "Six VTS animation filename references and avatar resource reload; no game, voice, main-loop or server restart",
+  "modelBefore": {
+    "modelName": "Cormy",
+    "modelID": "a100b4fe1a36fd7e2f24b314bcd808b3",
+    "modelPosition": {
+      "positionX": 0.0,
+      "positionY": 0.0,
+      "rotation": 360.0,
+      "size": -74.49664306640625
+    }
+  },
+  "modelAfter": {
+    "modelName": "Cormy",
+    "modelID": "a100b4fe1a36fd7e2f24b314bcd808b3",
+    "modelPosition": {
+      "positionX": 0.0,
+      "positionY": 0.0,
+      "rotation": 360.0,
+      "size": -74.49664306640625
+    }
+  },
+  "edits": [
+    {
+      "id": "b3cd32ed58965cedb719c9db79e90d81",
+      "old": "Motions/wave.motion3.json",
+      "new": "wave.motion3.json"
+    },
+    {
+      "id": "2df01980f7fa5022a18d35f774c55754",
+      "old": "Motions/cheer.motion3.json",
+      "new": "cheer.motion3.json"
+    },
+    {
+      "id": "22566cf33f445b6f9278fd8dc966ff17",
+      "old": "Motions/shyHands.motion3.json",
+      "new": "shyHands.motion3.json"
+    },
+    {
+      "id": "4297100292565163903e0f65b06edf87",
+      "old": "Motions/littleStep.motion3.json",
+      "new": "littleStep.motion3.json"
+    },
+    {
+      "id": "4a21c1ab4afc511d8ed19077332205a6",
+      "old": "Motions/earFlick.motion3.json",
+      "new": "earFlick.motion3.json"
+    },
+    {
+      "id": "66950c2f5ec45ddebe3bb415017f79e2",
+      "old": "Motions/poutBounce.motion3.json",
+      "new": "poutBounce.motion3.json"
+    }
+  ],
+  "mocHashBefore": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134",
+  "mocHashAfter": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134",
+  "geometryUnchanged": true,
+  "allSixObserved": true,
+  "modelVariant": "Cormy-NoTurn-v6.7",
+  "actions": [
+    {
+      "clip": "ear_flick",
+      "at": "2026-10-10T17:32:45.764453+00:00",
+      "ranges": {
+        "ParamEarL": {
+          "min": -0.2999759018421173,
+          "max": 0.5833063125610352
+        },
+        "ParamEarR": {
+          "min": -0.2433764934539795,
+          "max": 0.5194714665412903
+        }
+      },
+      "observedMotion": true
+    },
+    {
+      "clip": "wave",
+      "at": "2026-10-10T17:32:48.614613+00:00",
+      "ranges": {
+        "ParamArmRA": {
+          "min": 0.0,
+          "max": 24.0
+        },
+        "ParamArmRB": {
+          "min": 0.0,
+          "max": 132.0
+        },
+        "ParamHandR": {
+          "min": -10.964216232299805,
+          "max": 11.987174987792969
+        }
+      },
+      "observedMotion": true
+    },
+    {
+      "clip": "excited_bounce",
+      "at": "2026-10-10T17:32:52.536699+00:00",
+      "ranges": {
+        "ParamArmLA": {
+          "min": 0.0,
+          "max": 25.97361183166504
+        },
+        "ParamArmRA": {
+          "min": 0.0,
+          "max": 25.97361183166504
+        }
+      },
+      "observedMotion": true
+    },
+    {
+      "clip": "shy_hands",
+      "at": "2026-10-10T17:32:56.708531+00:00",
+      "ranges": {
+        "ParamArmLA": {
+          "min": -5.0,
+          "max": 0.0
+        },
+        "ParamArmRA": {
+          "min": -5.0,
+          "max": 0.0
+        }
+      },
+      "observedMotion": true
+    },
+    {
+      "clip": "little_step",
+      "at": "2026-10-10T17:33:00.487771+00:00",
+      "ranges": {
+        "ParamLegLA": {
+          "min": 0.0,
+          "max": 3.4429738521575928
+        },
+        "ParamLegRA": {
+          "min": -1.9674136638641357,
+          "max": 3.4843900203704834
+        },
+        "ParamFootL": {
+          "min": -2.951120376586914,
+          "max": 0.0
+        },
+        "ParamFootR": {
+          "min": -2.9866199493408203,
+          "max": 0.0
+        }
+      },
+      "observedMotion": true
+    },
+    {
+      "clip": "pout_puff",
+      "at": "2026-10-10T17:33:04.261732+00:00",
+      "ranges": {
+        "ParamArmLA": {
+          "min": 0.0,
+          "max": 6.0
+        },
+        "ParamArmRA": {
+          "min": 0.0,
+          "max": 6.0
+        },
+        "ParamFxPulse": {
+          "min": 0.0,
+          "max": 0.9334192276000977
+        }
+      },
+      "observedMotion": true
+    }
+  ],
+  "evidenceBoundary": "Actual VTS parameters after framework clips/trigger. No audience-side capture; ordinary speech integration checked separately.",
+  "sourceChecks": {
+    "onlySixAnimationFileFieldsChanged": true,
+    "personalMappingsPreserved": true,
+    "allAnimationBasenamesUniqueAndPresent": true,
+    "repeatRepairUnchanged": true,
+    "configs": [
+      "source/runtime-inputs/Cormy.vtube.json",
+      "VTubeStudio/Cormy/Cormy.vtube.json"
+    ]
+  },
+  "naturalSpeechCheck": {
+    "start": "2026-10-10T17:38:19.731171+00:00",
+    "end": "2026-10-10T17:38:59.600967+00:00",
+    "injectedAction": false,
+    "modelCall": {
+      "ts": "2026-10-11T01:38:58.889+08:00",
+      "callId": "call_ba1124ec40864a61ba854aeb",
+      "script": "<抖耳朵,微笑>三颗甜浆果，往家旁边的小空地上一种，莓果园就算开张啦。虽然只有三棵，但万事开头难嘛，等它们长满了再请女神吃莓派！"
+    },
+    "earOutput": {
+      "min": 0.0,
+      "max": 0.15688440203666687
+    },
+    "observedEarMotion": true,
+    "boundary": "Actual VTS parameter motion at 01:38:59 matches model-generated ear_flick request at 01:38:58.889; no audience-side video captured."
+  }
+}

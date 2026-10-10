@@ -1,7 +1,9 @@
-"""Repair the VTS screen-button sentinel without losing personal mappings.
+"""Repair VTS control references without losing personal mappings.
 
 The installed VTS 1.35.10 HotkeyConfigItem indexes button selectors using
 ScreenButtonID - 1 unless ID is -1. Zero is not the unassigned value.
+Animation hotkeys use a filename, even when model3 motion references use
+subdirectories. A path in the hotkey File field fails with VTS error 204.
 """
 from pathlib import Path
 import json
@@ -9,6 +11,12 @@ import json
 def repaired(data):
     edits=[]
     for hotkey in data.get('Hotkeys',[]):
+        animation=hotkey.get('File','')
+        if hotkey.get('Action')=='TriggerAnimation' and animation.endswith('.motion3.json'):
+            filename=animation.replace('\\','/').rsplit('/',1)[-1]
+            if filename != animation:
+                hotkey['File']=filename
+                edits.append({'hotkey':hotkey.get('Name'),'field':'File','from':animation,'to':filename})
         triggers=hotkey.setdefault('Triggers',{})
         button=triggers.get('ScreenButton',-1)
         if button==0 or 'ScreenButton' not in triggers:
