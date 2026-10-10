@@ -1,0 +1,14 @@
+{
+  "character": "可米 CorMy",
+  "server": "千灯纪",
+  "selectedFile": "cormy-agent-autoplay-cortico-v3.png",
+  "sha256": "2480f8837596d9131cd0e15841c4035816344edb457460acedea93709a66a2ec",
+  "headline": "Agent 自主玩游戏",
+  "highlight": "Agent 友好服务器",
+  "subtitle": "千灯纪 · 我的世界 RPG",
+  "technology": "Strata 推理引擎 + Qwen3.8-Flash-Next",
+  "footer": "本地部署 · 可米 CorMy",
+  "frameworkCredit": "Cortico 框架",
+  "frameworkLogoSource": "cortico-logo-reference.jpg",
+  "review": "已逐项检查标题、服务器名、角色特征和右上角框架标识。生成图片已原样保存，未上传直播平台。"
+}

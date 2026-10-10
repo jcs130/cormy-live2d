@@ -20,6 +20,10 @@
 
 完整设定见 [CorMy 可米人设](docs/character-persona.md)，常驻上下文可使用 [简短核心](docs/persona-core.txt)。[演出联动指南](docs/performance-guide.md) 提供现有表情、原生手脚和耳朵动作与 `vtuber_act` 的搭配方式。尾巴沿用物理摆动；接入时根据实际 VTS 模型和词表核验，不假定安装资源就已经启用所有动作。
 
+## 直播封面
+
+[Agent 自主玩游戏 · 千灯纪](branding/live-cover-v1/cormy-agent-autoplay-cortico-v3.png) 为横版封面，包含“Agent 友好服务器”、本地部署说明和 Cortico 框架标识。封面 PNG 与框架 Logo 参考图保存在 `branding/live-cover-v1/`，没有替换 VTube Studio 模型或直播平台设置。
+
 ## 保留的表现
 
 - 16 个表情：自然、微笑、开心笑、害羞、惊讶、思考、得意、委屈、生气、困倦、感动、眨眼、气鼓鼓、慌张、星星眼、爱心。
