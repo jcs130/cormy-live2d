@@ -1,0 +1,16 @@
+{
+  "engine": "PSD2Live",
+  "version": "3.2.0",
+  "java": "21",
+  "upstream": "https://github.com/tsunehimatoi/psd2live",
+  "release": "https://github.com/tsunehimatoi/psd2live/releases/tag/v3.2.0",
+  "asset": "PSD2Live-3.2.0-windows-x86_64-portable.zip",
+  "sha256": "5344b016a8b3305926b01e3f5e5a404d3e3958d1c1740c2cb19e00fe8048ec65",
+  "buildEntry": "scripts/BuildCormy.java",
+  "restoreEntry": "scripts/restore-runtime-inputs.py",
+  "previewRuntime": {
+    "Cubism Core": "5.1.0 (not redistributed)",
+    "pixi.js": "6.5.10",
+    "pixi-live2d-display": "0.4.0"
+  }
+}

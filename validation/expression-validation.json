@@ -1,0 +1,123 @@
+{
+  "revision": "6.7",
+  "createdAt": "2026-10-10T08:40:33.914Z",
+  "modelSha256": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134",
+  "parameters": 57,
+  "drawables": 34,
+  "checks": [
+    {
+      "id": "ParamBrowLAngle",
+      "mesh": "ArtMeshEyebrowL",
+      "maxMotionPx": 4.5987548828125
+    },
+    {
+      "id": "ParamBrowRAngle",
+      "mesh": "ArtMeshEyebrowR",
+      "maxMotionPx": 4.5987548828125
+    },
+    {
+      "id": "ParamEyeSmile",
+      "mesh": "ArtMeshEyeCloseL",
+      "maxMotionPx": 11.91082763671875
+    },
+    {
+      "id": "ParamEyeWide",
+      "mesh": "ArtMeshEyewhiteL",
+      "maxMotionPx": 2.4173583984375
+    },
+    {
+      "id": "ParamMouthForm",
+      "mesh": "ArtMeshMouthClose",
+      "maxMotionPx": 3.099853515625
+    }
+  ],
+  "expressionChecks": [
+    {
+      "id": "neutral",
+      "lipMotionPx": 10.295806884765625,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "smile",
+      "lipMotionPx": 10.209930419921875,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "laugh",
+      "lipMotionPx": 10.188446044921875,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "shy",
+      "lipMotionPx": 10.247467041015625,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "surprised",
+      "lipMotionPx": 10.3118896484375,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "thinking",
+      "lipMotionPx": 10.30859375,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "smug",
+      "lipMotionPx": 10.19384765625,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "sad",
+      "lipMotionPx": 10.38702392578125,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "angry",
+      "lipMotionPx": 10.365509033203125,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "sleepy",
+      "lipMotionPx": 10.306549072265625,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "moved",
+      "lipMotionPx": 10.242156982421875,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "wink",
+      "lipMotionPx": 10.188446044921875,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "pout",
+      "lipMotionPx": 10.344085693359375,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "flustered",
+      "lipMotionPx": 10.31719970703125,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "starry",
+      "lipMotionPx": 10.19384765625,
+      "blinkAndLipAndTurnCombinations": 18
+    },
+    {
+      "id": "love",
+      "lipMotionPx": 10.209930419921875,
+      "blinkAndLipAndTurnCombinations": 18
+    }
+  ],
+  "blush": {
+    "neutralOpacity": 0,
+    "activeOpacity": 1
+  },
+  "expressionSwitchPairs": 256,
+  "totalCombinations": 288,
+  "passed": true
+}

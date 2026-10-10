@@ -1,0 +1,338 @@
+{
+  "revision": "6.7",
+  "createdAt": "2026-10-10T08:33:14.058Z",
+  "modelSha256": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134",
+  "coreVersion": 83951616,
+  "mocVersion": 5,
+  "parameterCount": 57,
+  "drawableCount": 34,
+  "parameters": [
+    "ParamEarR",
+    "ParamEarL",
+    "ParamFxPulse",
+    "ParamFxStarEyes",
+    "ParamFxSparkle",
+    "ParamFxHeart",
+    "ParamFxSweat",
+    "ParamFxAnger",
+    "ParamEyeRStyle",
+    "ParamEyeLStyle",
+    "ParamBlush",
+    "ParamEyeWide",
+    "ParamEyeSmile",
+    "ParamBrowRAngle",
+    "ParamBrowLAngle",
+    "ParamAngleX",
+    "ParamAngleY",
+    "ParamAngleZ",
+    "ParamEyeLOpen",
+    "ParamEyeROpen",
+    "ParamEyeBallX",
+    "ParamEyeBallY",
+    "ParamEyeBallForm",
+    "ParamBrowLY",
+    "ParamBrowRY",
+    "ParamMouthForm",
+    "ParamMouthOpenY",
+    "ParamBodyAngleX",
+    "ParamBodyAngleY",
+    "ParamBodyAngleZ",
+    "ParamBodyLean",
+    "ParamProportion",
+    "ParamBreath",
+    "ParamHairFront",
+    "ParamHairBack",
+    "ParamSkelUpperBody",
+    "ParamArmLA",
+    "ParamArmLB",
+    "ParamHandL",
+    "ParamArmRA",
+    "ParamArmRB",
+    "ParamHandR",
+    "ParamTail1",
+    "ParamTail2",
+    "ParamTail3",
+    "ParamSkelLowerBody",
+    "ParamLegLA",
+    "ParamLegLB",
+    "ParamFootL",
+    "ParamLegRA",
+    "ParamLegRB",
+    "ParamFootR",
+    "ParamSkelCrouch",
+    "ParamSkelWeight",
+    "ParamSkelKneesIn",
+    "ParamSkelHop",
+    "ParamSkelTailSwing"
+  ],
+  "drawableIds": [
+    "ArtMeshFaceDetailL",
+    "ArtMeshFaceDetailR",
+    "ArtMeshFaceDetail",
+    "ArtMeshFaceDetail2",
+    "ArtMeshFaceDetail3",
+    "ArtMeshFaceDetail4",
+    "ArtMeshEarwearL",
+    "ArtMeshEarwearL2",
+    "ArtMeshFrontHair",
+    "ArtMeshEyeCloseL",
+    "ArtMeshEyeCloseR",
+    "ArtMeshMouthClose",
+    "ArtMeshMouthOpen",
+    "ArtMeshEyebrowL",
+    "ArtMeshEyebrowR",
+    "ArtMeshEyelashL",
+    "ArtMeshEyelashR",
+    "ArtMeshIridesL",
+    "ArtMeshIridesR",
+    "ArtMeshEyewhiteL",
+    "ArtMeshEyewhiteR",
+    "ArtMeshFrontHairL",
+    "ArtMeshFrontHairR",
+    "ArtMeshFaceDetail5",
+    "ArtMeshFace",
+    "ArtMeshEarsL",
+    "ArtMeshEarsR",
+    "ArtMeshTopwear",
+    "ArtMeshLegwearL",
+    "ArtMeshLegwearR",
+    "ArtMeshHandwearL",
+    "ArtMeshHandwearR",
+    "ArtMeshBackHair",
+    "ArtMeshTail"
+  ],
+  "finiteVertices": true,
+  "irisMasks": [
+    {
+      "id": "ArtMeshIridesL",
+      "masks": [
+        "ArtMeshEyewhiteL"
+      ]
+    },
+    {
+      "id": "ArtMeshIridesR",
+      "masks": [
+        "ArtMeshEyewhiteR"
+      ]
+    }
+  ],
+  "canvasInfo": {
+    "CanvasWidth": 1024,
+    "CanvasHeight": 1536,
+    "CanvasOriginX": 512,
+    "CanvasOriginY": 768,
+    "PixelsPerUnit": 1024
+  },
+  "tailRoot": {
+    "authoredCanvasRoot": [
+      621.34136,
+      724.1035
+    ],
+    "nearestMeshVertex": 2,
+    "restCanvasPoint": [
+      621.3409423828125,
+      724.1036987304688
+    ],
+    "landmarkDistancePx": 0.0004624909885511284,
+    "checks": [
+      {
+        "id": "ParamTail1",
+        "value": -14,
+        "rootDriftPx": 0.00022217132230470334,
+        "maximumTailMotionPx": 97.726318359375,
+        "otherMeshMotionPx": 0
+      },
+      {
+        "id": "ParamTail1",
+        "value": 14,
+        "rootDriftPx": 0.000539263825899423,
+        "maximumTailMotionPx": 100.86919403076172,
+        "otherMeshMotionPx": 0
+      },
+      {
+        "id": "ParamTail2",
+        "value": -18,
+        "rootDriftPx": 0.00008631674575031098,
+        "maximumTailMotionPx": 74.348876953125,
+        "otherMeshMotionPx": 0
+      },
+      {
+        "id": "ParamTail2",
+        "value": 18,
+        "rootDriftPx": 0.00007780486318348366,
+        "maximumTailMotionPx": 70.8582534790039,
+        "otherMeshMotionPx": 0
+      },
+      {
+        "id": "ParamTail3",
+        "value": -22,
+        "rootDriftPx": 0,
+        "maximumTailMotionPx": 63.751007080078125,
+        "otherMeshMotionPx": 0
+      },
+      {
+        "id": "ParamTail3",
+        "value": 22,
+        "rootDriftPx": 0,
+        "maximumTailMotionPx": 68.64216613769531,
+        "otherMeshMotionPx": 0
+      },
+      {
+        "id": "ParamSkelTailSwing",
+        "value": -1,
+        "rootDriftPx": 0.00006103515625,
+        "maximumTailMotionPx": 216.2534637451172,
+        "otherMeshMotionPx": 0
+      },
+      {
+        "id": "ParamSkelTailSwing",
+        "value": 1,
+        "rootDriftPx": 0.000903882032447503,
+        "maximumTailMotionPx": 175.88794708251953,
+        "otherMeshMotionPx": 0
+      }
+    ],
+    "maxDriftPx": 0.000903882032447503,
+    "otherMeshesStable": true
+  },
+  "poseChecks": [
+    {
+      "id": "ParamAngleX",
+      "value": -45,
+      "maxVertexDelta": 0
+    },
+    {
+      "id": "ParamAngleX",
+      "value": 45,
+      "maxVertexDelta": 0
+    },
+    {
+      "id": "ParamAngleY",
+      "value": -30,
+      "maxVertexDelta": 0.013572931289672852
+    },
+    {
+      "id": "ParamAngleY",
+      "value": 30,
+      "maxVertexDelta": 0.013817846775054932
+    },
+    {
+      "id": "ParamAngleZ",
+      "value": -30,
+      "maxVertexDelta": 0.1270983712747693
+    },
+    {
+      "id": "ParamAngleZ",
+      "value": 30,
+      "maxVertexDelta": 0.1273446138948202
+    },
+    {
+      "id": "ParamEyeLOpen",
+      "value": 0,
+      "maxVertexDelta": 0.018055498600006104
+    },
+    {
+      "id": "ParamEyeLOpen",
+      "value": 1,
+      "maxVertexDelta": 0
+    },
+    {
+      "id": "ParamEyeROpen",
+      "value": 0,
+      "maxVertexDelta": 0.017388343811035156
+    },
+    {
+      "id": "ParamEyeROpen",
+      "value": 1,
+      "maxVertexDelta": 0
+    },
+    {
+      "id": "ParamEyeBallX",
+      "value": -1,
+      "maxVertexDelta": 0.0037994906306266785
+    },
+    {
+      "id": "ParamEyeBallX",
+      "value": 1,
+      "maxVertexDelta": 0.0037994906306266785
+    },
+    {
+      "id": "ParamEyeBallY",
+      "value": -1,
+      "maxVertexDelta": 0.0037276744842529297
+    },
+    {
+      "id": "ParamEyeBallY",
+      "value": 1,
+      "maxVertexDelta": 0.0037276744842529297
+    },
+    {
+      "id": "ParamMouthOpenY",
+      "value": 0,
+      "maxVertexDelta": 0
+    },
+    {
+      "id": "ParamMouthOpenY",
+      "value": 1,
+      "maxVertexDelta": 0.01005449891090393
+    },
+    {
+      "id": "ParamTail1",
+      "value": -14,
+      "maxVertexDelta": 0.09543585777282715
+    },
+    {
+      "id": "ParamTail1",
+      "value": 14,
+      "maxVertexDelta": 0.09850507229566574
+    },
+    {
+      "id": "ParamTail2",
+      "value": -18,
+      "maxVertexDelta": 0.07260632514953613
+    },
+    {
+      "id": "ParamTail2",
+      "value": 18,
+      "maxVertexDelta": 0.06919751316308975
+    },
+    {
+      "id": "ParamTail3",
+      "value": -22,
+      "maxVertexDelta": 0.062256842851638794
+    },
+    {
+      "id": "ParamTail3",
+      "value": 22,
+      "maxVertexDelta": 0.06703336536884308
+    },
+    {
+      "id": "ParamSkelTailSwing",
+      "value": -1,
+      "maxVertexDelta": 0.211185023188591
+    },
+    {
+      "id": "ParamSkelTailSwing",
+      "value": 1,
+      "maxVertexDelta": 0.17176557332277298
+    }
+  ],
+  "eyeOpacities": {
+    "0": {
+      "ArtMeshEyeCloseL": 1,
+      "ArtMeshEyeCloseR": 1,
+      "ArtMeshIridesL": 1,
+      "ArtMeshIridesR": 1,
+      "ArtMeshEyewhiteL": 1,
+      "ArtMeshEyewhiteR": 1
+    },
+    "1": {
+      "ArtMeshEyeCloseL": 0,
+      "ArtMeshEyeCloseR": 0,
+      "ArtMeshIridesL": 1,
+      "ArtMeshIridesR": 1,
+      "ArtMeshEyewhiteL": 1,
+      "ArtMeshEyewhiteR": 1
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "revision": "6.7",
+  "createdAt": "2026-10-10T08:44:37.200101+00:00",
+  "mocSha256": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134",
+  "sourcePsdUnchanged": true,
+  "atlasUnchanged": true,
+  "actualImagesReviewed": [
+    "docs/face-v6.7.png",
+    "docs/expressions-v6.7.png",
+    "docs/actions-v6.7.png"
+  ],
+  "observed": "Neutral eyes open; same v6.4 face and ear-lantern artwork. Expressions and action frames inspected.",
+  "scope": "Agent inspection of actual Core/WebGL images, not new human visual acceptance or real camera/VTS live verification."
+}

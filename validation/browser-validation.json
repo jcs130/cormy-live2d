@@ -1,0 +1,258 @@
+{
+  "revision": "6.7",
+  "createdAt": "2026-10-10T08:35:43.318Z",
+  "renderer": "Actual WebGL using Cubism Core 5.1 and pixi-live2d-display",
+  "mocSha256": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134",
+  "yaw": [
+    {
+      "yaw": -45,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "nativeEyeOpen": [
+        1,
+        1
+      ]
+    },
+    {
+      "yaw": 0,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "nativeEyeOpen": [
+        1,
+        1
+      ]
+    },
+    {
+      "yaw": 45,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "nativeEyeOpen": [
+        1,
+        1
+      ]
+    }
+  ],
+  "idle": {
+    "revision": "6.7",
+    "createdAt": "2026-10-10T08:35:42.541Z",
+    "scope": "Real preview idle/reset pipeline and actual Cubism Core; no camera/VTS desktop",
+    "checks": [
+      {
+        "name": "initial resting eyes fully open",
+        "passed": true,
+        "left": 1,
+        "right": 1,
+        "leftStyle": 1,
+        "rightStyle": 1
+      },
+      {
+        "name": "three complete idle cycles return to open eyes",
+        "passed": true,
+        "frames": 739,
+        "seconds": 12.3,
+        "fullyOpenFraction": 0.959404600811908,
+        "longestBlinkSeconds": 0.16666666666666666,
+        "minimumEyeOpen": 0.07407407462596893,
+        "invalidFrames": 0
+      },
+      {
+        "name": "sleepy expression actually reproduces narrow eyes",
+        "passed": true,
+        "leftStyle": 0.36000001430511475
+      },
+      {
+        "name": "natural reset clears sleepy style and eye overrides",
+        "passed": true,
+        "leftStyle": 1,
+        "rightStyle": 1,
+        "leftOpen": 1
+      },
+      {
+        "name": "reset releases automatic performance and stale half-eye injection",
+        "passed": true,
+        "activeExpressions": [],
+        "leftOpen": 1,
+        "rightOpen": 1
+      }
+    ],
+    "failures": [],
+    "modelSha256": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134",
+    "passed": true
+  },
+  "actions": {
+    "revision": "6.7",
+    "createdAt": "2026-10-10T08:35:42.847Z",
+    "runtime": "Actual Cubism Core and motion manager; native motion3 curves",
+    "actions": [
+      {
+        "id": "wave",
+        "frames": 252,
+        "completed": true,
+        "maxResidual": 0,
+        "maxLipError": 2.9713241866957674e-8,
+        "maxBlinkError": 0,
+        "ranges": {
+          "ParamArmRA": {
+            "min": 0,
+            "max": 24
+          },
+          "ParamArmRB": {
+            "min": 0,
+            "max": 132
+          },
+          "ParamHandR": {
+            "min": -12,
+            "max": 12
+          }
+        }
+      },
+      {
+        "id": "cheer",
+        "frames": 264,
+        "completed": true,
+        "maxResidual": 0,
+        "maxLipError": 2.9713241866957674e-8,
+        "maxBlinkError": 0,
+        "ranges": {
+          "ParamArmLA": {
+            "min": 0,
+            "max": 26
+          },
+          "ParamArmRA": {
+            "min": 0,
+            "max": 26
+          },
+          "ParamArmLB": {
+            "min": 0,
+            "max": 124
+          },
+          "ParamArmRB": {
+            "min": 0,
+            "max": 124
+          },
+          "ParamHandL": {
+            "min": -8,
+            "max": 8
+          },
+          "ParamHandR": {
+            "min": -8,
+            "max": 8
+          }
+        }
+      },
+      {
+        "id": "shyHands",
+        "frames": 240,
+        "completed": true,
+        "maxResidual": 0,
+        "maxLipError": 2.9713241866957674e-8,
+        "maxBlinkError": 0,
+        "ranges": {
+          "ParamArmLA": {
+            "min": -5,
+            "max": 0
+          },
+          "ParamArmRA": {
+            "min": -5,
+            "max": 0
+          },
+          "ParamArmLB": {
+            "min": 0,
+            "max": 18
+          },
+          "ParamArmRB": {
+            "min": 0,
+            "max": 18
+          },
+          "ParamHandL": {
+            "min": -8,
+            "max": 0
+          },
+          "ParamHandR": {
+            "min": -8,
+            "max": 0
+          }
+        }
+      },
+      {
+        "id": "littleStep",
+        "frames": 240,
+        "completed": true,
+        "maxResidual": 0,
+        "maxLipError": 2.9713241866957674e-8,
+        "maxBlinkError": 0,
+        "ranges": {
+          "ParamLegRA": {
+            "min": -2,
+            "max": 3.5
+          },
+          "ParamLegRB": {
+            "min": 0,
+            "max": 9
+          },
+          "ParamFootR": {
+            "min": -3,
+            "max": 0
+          },
+          "ParamLegLA": {
+            "min": 0,
+            "max": 3.5
+          },
+          "ParamLegLB": {
+            "min": 0,
+            "max": 9
+          },
+          "ParamFootL": {
+            "min": -3,
+            "max": 0
+          }
+        }
+      },
+      {
+        "id": "earFlick",
+        "frames": 186,
+        "completed": true,
+        "maxResidual": 0,
+        "maxLipError": 2.9713241866957674e-8,
+        "maxBlinkError": 0,
+        "ranges": {
+          "ParamEarL": {
+            "min": -0.3499999940395355,
+            "max": 0.6499999761581421
+          },
+          "ParamEarR": {
+            "min": -0.30000001192092896,
+            "max": 0.550000011920929
+          }
+        }
+      },
+      {
+        "id": "poutBounce",
+        "frames": 229,
+        "completed": true,
+        "maxResidual": 0,
+        "maxLipError": 2.9713241866957674e-8,
+        "maxBlinkError": 0,
+        "ranges": {
+          "ParamArmRA": {
+            "min": 0,
+            "max": 6
+          },
+          "ParamArmLA": {
+            "min": 0,
+            "max": 6
+          },
+          "ParamFxPulse": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      }
+    ],
+    "failures": [],
+    "passed": true
+  },
+  "pageErrors": [],
+  "cameraOrMicrophoneUsed": false,
+  "passed": true
+}

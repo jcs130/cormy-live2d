@@ -1,0 +1,957 @@
+{
+  "revision": "6.7",
+  "tag": "v6.7.0",
+  "variant": "NoTurn",
+  "mocSha256": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134",
+  "createdAt": "2026-10-10T08:44:37.594490+00:00",
+  "runtimeFileCount": 56,
+  "fileCount": 189,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 95,
+      "sha256": "4df6a6bf7b525823aa5379b148defe39383f84ae92fc337408689a5468b496cd"
+    },
+    {
+      "path": "actions.json",
+      "bytes": 2126,
+      "sha256": "65514871a8e7b4b8138b26d25754b51eadc376acf8179e140a012295d547985c"
+    },
+    {
+      "path": "automatic-expression-bindings.json",
+      "bytes": 1249,
+      "sha256": "4212fda971b9439ad40dd197fba1e0c96e562b9b06f01de789b6ffc2ed4e1797"
+    },
+    {
+      "path": "COPYING",
+      "bytes": 35157,
+      "sha256": "22f65f0ba65b3fb08b8f2b681d5cefa436690fe67747fa9ad4674c75695643a4"
+    },
+    {
+      "path": "docs/actions-v6.7.png",
+      "bytes": 452179,
+      "sha256": "5a8846797c3dd2f88fd4a78ba4f751c6e6280f59fa082b02f059596d7a1c2e81"
+    },
+    {
+      "path": "docs/expressions-v6.7.png",
+      "bytes": 401020,
+      "sha256": "71cfa43df085b0b4c5780858de25383290e5124236046f40df7564886f67aaa1"
+    },
+    {
+      "path": "docs/face-v6.7.png",
+      "bytes": 612394,
+      "sha256": "84b5d341ad5241db1c91799f92d99aebd22048721362ece45295302ad5ea6b44"
+    },
+    {
+      "path": "docs/neutral-v6.7.png",
+      "bytes": 344258,
+      "sha256": "1eb623f43e196dfddbddda72b5c9b6c226dc8b1f1d1684d90cfa22c92b06b227"
+    },
+    {
+      "path": "engine-pin.json",
+      "bytes": 586,
+      "sha256": "47afebcaaba5d1e52073deefe2ea647bc060a3183f2842b6cebe5852874fadcf"
+    },
+    {
+      "path": "expressions.json",
+      "bytes": 2840,
+      "sha256": "fed4ecd8d6a6e6fe4f3db8b89892a32042c6799481eb8f401fa69bc2664139bb"
+    },
+    {
+      "path": "model/Cormy.cmo3",
+      "bytes": 6140322,
+      "sha256": "c4009bcec8b5461ec60a63aedb821c560ed9f4597f3f276bbcaa0aeb36684ca0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4497,
+      "sha256": "702fa43c9f99089543d7d1bc2b2b300661e9f59c38ff14ddbc66116c3663c59f"
+    },
+    {
+      "path": "scripts/BuildCormy.java",
+      "bytes": 24014,
+      "sha256": "445abe497cebe203922f933017bfeb992027cd5ba70b78c6e432fce1d4c9899f"
+    },
+    {
+      "path": "scripts/check-actions.cjs",
+      "bytes": 9811,
+      "sha256": "a88812344ec2f799de2f39dc2010070cfe20f87ff393e6756c27961e1c506fe2"
+    },
+    {
+      "path": "scripts/check-core.cjs",
+      "bytes": 6295,
+      "sha256": "ae204902328e97855fe0c735ff69cfad7b62a9193ffedd719c0bafe07db66a76"
+    },
+    {
+      "path": "scripts/check-expressions.cjs",
+      "bytes": 5732,
+      "sha256": "04f37206f62463a2e30b216a55291d5c0f5fa29f4024d5c19d52b939d8f6fb00"
+    },
+    {
+      "path": "scripts/check-no-head-turn.cjs",
+      "bytes": 4956,
+      "sha256": "60e6cc4e3eb390956f294de2e0db32ca9f2e706920ce1b5868d01b112035977a"
+    },
+    {
+      "path": "scripts/rebuild.ps1",
+      "bytes": 1478,
+      "sha256": "254b9a592d80c90896cfb8c38287315e2b73955eaba89807b673d6b0410ad945"
+    },
+    {
+      "path": "scripts/repair_vts_config.py",
+      "bytes": 1263,
+      "sha256": "45dc0e95eba9770422c9a77e57bb6cff840eb998056c91ac9e1ae575448383a5"
+    },
+    {
+      "path": "scripts/restore-runtime-inputs.py",
+      "bytes": 3066,
+      "sha256": "3f99080f2091b24f6a57dfcadc5a2344bd56a0daadbf9a5450296cb5d1265879"
+    },
+    {
+      "path": "source/arm-l.png",
+      "bytes": 64282,
+      "sha256": "93b6cffb8822d8e7a24bc50c08a93f1928d4bf169a1a91e1a7195e5cd21c9427"
+    },
+    {
+      "path": "source/arm-r.png",
+      "bytes": 62826,
+      "sha256": "f6fce6bb03435d29f91c093f602fd357388e94123b34eed265038dc9990fac26"
+    },
+    {
+      "path": "source/authored-masks.json",
+      "bytes": 58,
+      "sha256": "edd556e8ad1957388e35e1d1d405d3f1ef9dfc42e93dd9d87e3d46c8fc25a8fc"
+    },
+    {
+      "path": "source/back_hair.png",
+      "bytes": 103601,
+      "sha256": "75d380fe50750f96a08cc378a197e11ad679856589ec5cd657cd85da8eceba71"
+    },
+    {
+      "path": "source/blush.png",
+      "bytes": 1641,
+      "sha256": "77a815e553c49065a9c8d43ca85652ae1da047d17041341936f8d8c681fe0ce0"
+    },
+    {
+      "path": "source/blush.svg",
+      "bytes": 422,
+      "sha256": "32ca35041c31814a1ba06978073478b036ace09e086b43a085ca5509053202aa"
+    },
+    {
+      "path": "source/Cormy.psd",
+      "bytes": 3914551,
+      "sha256": "aa9c0595b4f5aa52d23a9ea4ec5d72d4a3256eda79aa653987aed75e468d4088"
+    },
+    {
+      "path": "source/drawable-names.json",
+      "bytes": 1239,
+      "sha256": "c2968dde4b1da80b3bba7870b4207b97acd72416b0def0b8cec8fa0a9262f235"
+    },
+    {
+      "path": "source/ears-l.png",
+      "bytes": 15272,
+      "sha256": "1dbad3d3deacf135f4f34da0f40df68c291fce08fe10bbb87efe3af01d9b77a9"
+    },
+    {
+      "path": "source/ears-r.png",
+      "bytes": 15457,
+      "sha256": "add0984cc81dc312f6bc496c8be310480b4175f933bd0a735397562ff5353a67"
+    },
+    {
+      "path": "source/expression-rig.txt",
+      "bytes": 416723,
+      "sha256": "308d631b1c6b7a08d6cd57afb05fc18620f8b16284c170bed36b96c1c605dffc"
+    },
+    {
+      "path": "source/eye_close-l.png",
+      "bytes": 1021,
+      "sha256": "65ceb72cbe4d0f91640ab0ada7bda036052285e56edda1310362b3b2e68f55fb"
+    },
+    {
+      "path": "source/eye_close-r.png",
+      "bytes": 1023,
+      "sha256": "d9178ff1d19b139222ebb39d05771d0313ee783319d701d22623b3963f40c105"
+    },
+    {
+      "path": "source/eyebrow-l.png",
+      "bytes": 812,
+      "sha256": "4a1b41caa031df17018d6e968b1d223fdb621d8e9d6c9a6bde692038654b847d"
+    },
+    {
+      "path": "source/eyebrow-r.png",
+      "bytes": 808,
+      "sha256": "c97ad78d278c0c5277dac7f07f57d9da3bf6621c0a17b36272375470e2b14cea"
+    },
+    {
+      "path": "source/eyelash-l.png",
+      "bytes": 2096,
+      "sha256": "198efef76a76627346cc74b4ccebcac0daa83e98cb38bf7be8b0ac24fef34870"
+    },
+    {
+      "path": "source/eyelash-r.png",
+      "bytes": 1955,
+      "sha256": "6c8b2da67e232f88a8757ce6ae73523bd4729434717f41069b94a9b139294622"
+    },
+    {
+      "path": "source/eyewhite-l.png",
+      "bytes": 2403,
+      "sha256": "75960d412d227bc1871270536c85ed6d4e37287fc9b6d8f2ee295edd76dd88c9"
+    },
+    {
+      "path": "source/eyewhite-r.png",
+      "bytes": 2398,
+      "sha256": "0cebe5a7764d6d47e15b8e9056c52c38c7271599eac0b0b96729ec2659cdb943"
+    },
+    {
+      "path": "source/face.png",
+      "bytes": 36614,
+      "sha256": "51ec56fcf70970be493c96a3b5c3bfc4920fac7bc4cf11333328acce16daa199"
+    },
+    {
+      "path": "source/front_hair_1.png",
+      "bytes": 78483,
+      "sha256": "24061ef28b9c38c16b846c2e39c34d0c49c0be21f22c8acc7513fad3da218502"
+    },
+    {
+      "path": "source/front_hair_2-r.png",
+      "bytes": 20950,
+      "sha256": "eb90e374bf2ab554659629abac372761dcf539913760df0454343f4cbdd2178f"
+    },
+    {
+      "path": "source/front_hair_3-l.png",
+      "bytes": 20181,
+      "sha256": "6a6412a85a8720df7b40631a9f76aa5511ca7236f0573c2658c2f1fdc0d65fbb"
+    },
+    {
+      "path": "source/fx-anger.png",
+      "bytes": 1002,
+      "sha256": "808969d1dd8478b37d4ff24921c592d563c599b6e8bc94a466f661b89cdbebaa"
+    },
+    {
+      "path": "source/fx-anger.svg",
+      "bytes": 509,
+      "sha256": "bec7cca422c5e90ecb6e8d21728e06ae77002b1ac1f0801d731dda443f1a3aac"
+    },
+    {
+      "path": "source/fx-hearts.png",
+      "bytes": 1684,
+      "sha256": "73664752c3b9415688ba625efb79eb71709911d7349dd235430fd0c5aac079e4"
+    },
+    {
+      "path": "source/fx-hearts.svg",
+      "bytes": 293,
+      "sha256": "e9303b79d8adc7b83abb3219ffb6261ef56e6107314c056c3b257edb2066d1d9"
+    },
+    {
+      "path": "source/fx-sparkles.png",
+      "bytes": 1489,
+      "sha256": "6e6aa1c146fcc2beec87b57e540faa6076ee01c03c63dadbfa30d16b6e7367ae"
+    },
+    {
+      "path": "source/fx-sparkles.svg",
+      "bytes": 309,
+      "sha256": "708b5e67e643bc4ff83da82ae95d03d2ccd0101fd28ecf702df5ad5f68fa1cc8"
+    },
+    {
+      "path": "source/fx-star-l.png",
+      "bytes": 626,
+      "sha256": "3f1433a1e5def90a87c7c0ab6643f7de703f2353949f95f480b6d86467982df2"
+    },
+    {
+      "path": "source/fx-star-l.svg",
+      "bytes": 193,
+      "sha256": "9a7a1eb0d6b698b6fd5cf39e3d51a7279e8e9d8bc8f39f4683114ceafaab42fa"
+    },
+    {
+      "path": "source/fx-star-r.png",
+      "bytes": 626,
+      "sha256": "3f1433a1e5def90a87c7c0ab6643f7de703f2353949f95f480b6d86467982df2"
+    },
+    {
+      "path": "source/fx-star-r.svg",
+      "bytes": 193,
+      "sha256": "9a7a1eb0d6b698b6fd5cf39e3d51a7279e8e9d8bc8f39f4683114ceafaab42fa"
+    },
+    {
+      "path": "source/fx-sweat.png",
+      "bytes": 1520,
+      "sha256": "b765a57b3856681b8a60f0fe5fed0655cd01824647600894df31c8ea894577c0"
+    },
+    {
+      "path": "source/fx-sweat.svg",
+      "bytes": 396,
+      "sha256": "2a02ef91c4acd5b10af657b84d1f591b1771e0aaf2e7de1bf2919ec2b971d241"
+    },
+    {
+      "path": "source/headwear.png",
+      "bytes": 7657,
+      "sha256": "a4cabd61f8eb744c7e9e751feef7750c6a450c79999d47cc3aa0843f1f5cca8c"
+    },
+    {
+      "path": "source/irides-l.png",
+      "bytes": 2434,
+      "sha256": "da18ea37eb10c125b88d8d7e023507d87c575e9c1e2c31ce531313bb4b4faa11"
+    },
+    {
+      "path": "source/irides-r.png",
+      "bytes": 2410,
+      "sha256": "7ba8253b927d3a85709d03d7ce6d4bfc0bcc5578ff7e9241741437e03d14318c"
+    },
+    {
+      "path": "source/lantern-connector.png",
+      "bytes": 546,
+      "sha256": "9e4ca159377a1e4281309016e7d33ab8f5e5c0dc780b4ab8f744a0772be1ea1f"
+    },
+    {
+      "path": "source/lantern-connector.svg",
+      "bytes": 340,
+      "sha256": "709032aa1b280eefc3bde882761cb7e3e8f725dc86dd356a285b289e6ca24380"
+    },
+    {
+      "path": "source/layers.json",
+      "bytes": 13012,
+      "sha256": "b6065da25202146aeb6892ce21afb8946c34b4a8cee3890c74899c0976b50808"
+    },
+    {
+      "path": "source/leg-l.png",
+      "bytes": 158210,
+      "sha256": "7cfa71b126c5b7b20aeb442c597d514061d9514ae49d88c13d033c9009619c50"
+    },
+    {
+      "path": "source/leg-r.png",
+      "bytes": 157233,
+      "sha256": "0aa9bf53460d16133f2614bbe2bd00b1db25b0fc3e839df926dd23d87ef6b317"
+    },
+    {
+      "path": "source/mouth_close.png",
+      "bytes": 349,
+      "sha256": "32be370d4ad4a9c128672e5726e6e986b712d69a8eea8bc2d877833a0abfa346"
+    },
+    {
+      "path": "source/mouth_open.png",
+      "bytes": 1914,
+      "sha256": "33434dc927b67372d3d92b994b6f92a036cee4e704d1cc9144cc03f4a1e00720"
+    },
+    {
+      "path": "source/physics-authored.txt",
+      "bytes": 970,
+      "sha256": "f12f9b1af47a7feb577443de39e1d0afcd582290c900f7467011756360d7baa3"
+    },
+    {
+      "path": "source/rig-tuning.json",
+      "bytes": 2056,
+      "sha256": "575f44c4f99c7f4d6de2a4aafa60734b437c132852184e2c8143fc420c9c2dae"
+    },
+    {
+      "path": "source/runtime-inputs/Cormy.blink.motion3.json",
+      "bytes": 878,
+      "sha256": "84706917236bca55730ebac9e0ee0cb8a9b1cac88ab30e3db633c0d56e6f86f2"
+    },
+    {
+      "path": "source/runtime-inputs/Cormy.cdi3.json",
+      "bytes": 10174,
+      "sha256": "be81b67a0f38fe0a13a30ff43baf52518c7f9ec2940a12920ccc6df1f33c4589"
+    },
+    {
+      "path": "source/runtime-inputs/Cormy.icon.png",
+      "bytes": 376001,
+      "sha256": "33bd2a90a95b3c5a4a439475970d8b62ccce2726b517d53678347c75a97a42a0"
+    },
+    {
+      "path": "source/runtime-inputs/Cormy.idle.motion3.json",
+      "bytes": 14084,
+      "sha256": "89d469de11cf2730184e1b551b5b7ede48e55d1ae22a62d4d0981d2f9ac56077"
+    },
+    {
+      "path": "source/runtime-inputs/Cormy.model3.json",
+      "bytes": 5307,
+      "sha256": "2910ca6320ae8ec0a39360221468583ffa5be8bde573f803b19b6011c153a5e4"
+    },
+    {
+      "path": "source/runtime-inputs/Cormy.nod.motion3.json",
+      "bytes": 1310,
+      "sha256": "ca7a08b86816949e5aa398722426651391a538bc65bba5306bafa5667ad32df1"
+    },
+    {
+      "path": "source/runtime-inputs/Cormy.physics3.json",
+      "bytes": 9132,
+      "sha256": "345c8bb78685bb70488599c4561c17f29e63f4764ceda24dc17c8e5d569f3165"
+    },
+    {
+      "path": "source/runtime-inputs/Cormy.tailSwing.motion3.json",
+      "bytes": 1882,
+      "sha256": "be3c337e86cd83ee17c8b7fcf127e9571fc6982b27e54443c8bb2dae668531d0"
+    },
+    {
+      "path": "source/runtime-inputs/Cormy.vtube.json",
+      "bytes": 23472,
+      "sha256": "ebbf5060965a7e3e0c496bd88f6130937287cb7570958b7c1c5993106b1f9e5f"
+    },
+    {
+      "path": "source/runtime-inputs/cortico.profile.json",
+      "bytes": 4447,
+      "sha256": "71fadd1f1201f53548ddf3177104861702070a07c10451a25ff5204044eb42fe"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/angry.exp3.json",
+      "bytes": 1512,
+      "sha256": "db4e9ef9b5cfa3cb0b2eeb5cc6b09f3b1c3c878a1d09376f9421d662f2aad074"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-angry.exp3.json",
+      "bytes": 1052,
+      "sha256": "2deb4fe3fd77a2fe694867578ffe640ed51a04b82fb347130c4b0cf705adda55"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-flustered.exp3.json",
+      "bytes": 1042,
+      "sha256": "f9c572a377e52c266babb37d2c4ecb1aae83513d843f9e6dab1b3a155b5ce1f8"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-laugh.exp3.json",
+      "bytes": 1041,
+      "sha256": "9f907f4223a1f4a15ea4585235de2e51d5862f8fda8f18196d97d84855afcf59"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-love.exp3.json",
+      "bytes": 1042,
+      "sha256": "20ca7b8e764e3fc6d3654178e14ecd63ceb78cf449267c19a85d5e561a76aaa9"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-moved.exp3.json",
+      "bytes": 1051,
+      "sha256": "589bc63a498786fde88de7770bdf7383e00c280d200f752df4ec8988524fc1bf"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-neutral.exp3.json",
+      "bytes": 1026,
+      "sha256": "f82442ac90cccaf8faa5a7d71c05fba021fc1e7283685d16bb8b4c39fffde539"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-pout.exp3.json",
+      "bytes": 1052,
+      "sha256": "c92a2eb695a8ed2e24a8ef9ee3125e0bccc2fd22eb5aed481ee12b8741790220"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-sad.exp3.json",
+      "bytes": 1045,
+      "sha256": "0e48df57c65383b227af5812be18eae2047968787305dbcf450429a3e32cade8"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-shy.exp3.json",
+      "bytes": 1046,
+      "sha256": "3bc16accd558e0529def059bbd4bfc4b8257d7d5eee40f79f541a16d2df76a64"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-sleepy.exp3.json",
+      "bytes": 1043,
+      "sha256": "aae748ef7c3e8a0a1b241cb5c70efb669bd4df74dde193f679a34ebc41e3d7d8"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-smile.exp3.json",
+      "bytes": 1043,
+      "sha256": "83d21b398ce4a5061f8be89b4db80cb439854aaaf0acd55de2a54572c1eb3f26"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-smug.exp3.json",
+      "bytes": 1051,
+      "sha256": "a05aca7d17fe0aaed514d67d313aa6adb21febe802091101b0f07d8d7c6a4034"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-starry.exp3.json",
+      "bytes": 1036,
+      "sha256": "beaba3fc217cc12693f27a7c6c77be0377a47a80a9f8cc1663096e51bb9ef1d5"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-surprised.exp3.json",
+      "bytes": 1034,
+      "sha256": "8039f832d88fc835ea0c68dfe930fb2b539cb4c21adee0a950d9bf07afb33019"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-thinking.exp3.json",
+      "bytes": 1049,
+      "sha256": "dba8f7abb2c38e67aa870402f2478af293fa9d0d667c851d250eea6255091fe2"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Emote-wink.exp3.json",
+      "bytes": 1038,
+      "sha256": "84e9760c02005d39872d2f4b9c11ccd937103d58142cee37f2d14621324ed65f"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/flustered.exp3.json",
+      "bytes": 1502,
+      "sha256": "906321385557be984306aadffaffa28a6b4589f5e34b10499d395fc5ceada1c2"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Fx-Anger.exp3.json",
+      "bytes": 199,
+      "sha256": "1ae0303f32ce81bde7eae62977909d73cad2f289d58fb77fcd20cc19473c2108"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Fx-Blush.exp3.json",
+      "bytes": 199,
+      "sha256": "46f8bd2fb542634b9595ab07cd67c9e6cc6850c0848d68afefb330f632818b12"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Fx-Heart.exp3.json",
+      "bytes": 199,
+      "sha256": "29476e11f97f7ad50d7d1d44ca40049c01f30decd373ddfe9c026283d09c526b"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Fx-Star.exp3.json",
+      "bytes": 201,
+      "sha256": "6f814ef4cf48ccd69742f351c16cdf0c4640d5aef434565121e8435d5c62a09a"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Fx-StarEyes.exp3.json",
+      "bytes": 202,
+      "sha256": "3dbf929683ad61b7b7766117e79d10e3159a14a5c8bbaa1b76604c7bdc775bfe"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/Fx-Sweat.exp3.json",
+      "bytes": 199,
+      "sha256": "9106d1d093ab3b14e1b5ef417c6a52a19414b68f8f1025d0bea1fb641616595a"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/laugh.exp3.json",
+      "bytes": 1501,
+      "sha256": "4348d9d5d6393c904206ba96293a8d8f5300164d9e2a770c33f37170f4349a41"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/love.exp3.json",
+      "bytes": 1502,
+      "sha256": "cdc265080a16d3e2839843fb0898fa3870c3dd36cedb2fd3eda9598c7f7545e2"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/moved.exp3.json",
+      "bytes": 1511,
+      "sha256": "42eea439350b7d300ceb8c2badc858c86b5df5a0f0b68cb6b9f28ba918b17ab4"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/neutral.exp3.json",
+      "bytes": 1486,
+      "sha256": "aa90c0d7bda526c5faf6ef393f5cc7722b9b7a3d090bda9a0625acaccd59156e"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/pout.exp3.json",
+      "bytes": 1512,
+      "sha256": "77d1a702d7dd3b6512b9403b83ae8860e85b1d0208bbca18643c5b11b94a862d"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/sad.exp3.json",
+      "bytes": 1505,
+      "sha256": "1ddee6da7426cacfb1ddecb2b1a7e306d4330f8c34fa24ed0aa98100acf0ce81"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/shy.exp3.json",
+      "bytes": 1506,
+      "sha256": "5628fc89e28170bd931b459cbc2c13bf2754dd65e145f04afc13251be6cbe7f0"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/sleepy.exp3.json",
+      "bytes": 1503,
+      "sha256": "33f89148aa4a8a2c2eebc1fa6933989a518453d63cd4d8f2e9dcd56550189b7e"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/smile.exp3.json",
+      "bytes": 1503,
+      "sha256": "f2e94f19fd4d5c06238075e8d75b1859a2a7ccd5331f413ad2529e8b6ac54bcb"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/smug.exp3.json",
+      "bytes": 1511,
+      "sha256": "df0e18677240152b861ce142ead43683b5c3dd9d1c23fa5c5741ec28d71ae32b"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/starry.exp3.json",
+      "bytes": 1496,
+      "sha256": "4e0a871877889b894f5c3fc9e09600de5df48979213fd4a4caac0fa13f8a708b"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/surprised.exp3.json",
+      "bytes": 1494,
+      "sha256": "662d08a36538fdfd3da19ac1efba71b0777ccb38cab8dfbc2d44281864bfff07"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/thinking.exp3.json",
+      "bytes": 1509,
+      "sha256": "bfa565a745c42208a9d6a9ef71659dd9357c092f0caf6b58c8daf794a3a4d03a"
+    },
+    {
+      "path": "source/runtime-inputs/Expressions/wink.exp3.json",
+      "bytes": 1498,
+      "sha256": "ad98f645c6d5896758a0a72431994e1e38f07c3b992c3e8e72720f2fc1fc6040"
+    },
+    {
+      "path": "source/runtime-inputs/Motions/cheer.motion3.json",
+      "bytes": 2499,
+      "sha256": "2e84f4ec02e9733b750b49b965c61e599b3ec3828f0fb3cbc991c2975d21e547"
+    },
+    {
+      "path": "source/runtime-inputs/Motions/earFlick.motion3.json",
+      "bytes": 1125,
+      "sha256": "4e879bd230b518aec6ade44347a526f7274699331debfc1b63575e8daa6c0ae7"
+    },
+    {
+      "path": "source/runtime-inputs/Motions/littleStep.motion3.json",
+      "bytes": 2136,
+      "sha256": "ec4b8bac8773b4256643d10144e5c1a9df22a1b26c771df46541e335f1bccf52"
+    },
+    {
+      "path": "source/runtime-inputs/Motions/poutBounce.motion3.json",
+      "bytes": 1324,
+      "sha256": "c78b346af546a98e3e03c7c57e5ef346da34f6330e689d982c2eb6f58c997c4a"
+    },
+    {
+      "path": "source/runtime-inputs/Motions/shyHands.motion3.json",
+      "bytes": 2103,
+      "sha256": "ca0be981e1d643a9592004d5a74a9be4961ef574c0df422afa30c10c469c3527"
+    },
+    {
+      "path": "source/runtime-inputs/Motions/wave.motion3.json",
+      "bytes": 1375,
+      "sha256": "c93e16efdf13963bdec7d9bd43cc53673a6bb94a1acde82d06a5c7bf244300b4"
+    },
+    {
+      "path": "source/skeleton-authored.json",
+      "bytes": 5960,
+      "sha256": "0be3f29bc3e8e127e1cbc098e485add49de70d21d5d96db6fe593dda56d663a8"
+    },
+    {
+      "path": "source/skeleton-auto-before.json",
+      "bytes": 5633,
+      "sha256": "03d87f39d7debad46d4bdc9815dbd686176a2c45730ab9e1d359659da806e444"
+    },
+    {
+      "path": "source/tail.png",
+      "bytes": 116999,
+      "sha256": "f2777baa2b0aafaca126ddbd13cf98caaaf8da99d5fd4f2ffdbf5afea4717ecb"
+    },
+    {
+      "path": "source/topwear.png",
+      "bytes": 806943,
+      "sha256": "36d2bf90f3222f93a2a313b94183c8df2285e5ebe64058e41e5f00dbe936a589"
+    },
+    {
+      "path": "validation/action-validation.json",
+      "bytes": 5165,
+      "sha256": "aa349c704e89dd811c9220a195f7968c862aab87a66869c3452e44f95502fc9a"
+    },
+    {
+      "path": "validation/browser-validation.json",
+      "bytes": 5911,
+      "sha256": "a42607d32ad46508ce6e5de36f9e536ed3e02e8f4d5dfa5b6386b267261582b2"
+    },
+    {
+      "path": "validation/cmo3-export.json",
+      "bytes": 2026,
+      "sha256": "d4a4acdbc3bfd3aaa390791e0591d8639e7b9c9fc4755784110dbdd88a33850e"
+    },
+    {
+      "path": "validation/core-validation.json",
+      "bytes": 7342,
+      "sha256": "e9d4bf395809486b8f0cea0e0f202903349804f3f509e06b079f33e6f588dc62"
+    },
+    {
+      "path": "validation/expression-validation.json",
+      "bytes": 2826,
+      "sha256": "22ef3c1b86fcc44bead40a245efbfff0a0baa9cc6307ad4f9aa26f7ae82928df"
+    },
+    {
+      "path": "validation/no-head-turn-validation.json",
+      "bytes": 451,
+      "sha256": "5f0139c587f853dfa10ce573af5f19d8db5562bd7414a2d020945ae85b082933"
+    },
+    {
+      "path": "validation/visual-review.json",
+      "bytes": 595,
+      "sha256": "b4fc77f5d32c7d8c5f38595e30e0ef07c8a96e75132a4a0da6d35dfa88813843"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Cormy.2048/texture_00.png",
+      "bytes": 1863871,
+      "sha256": "b3abecd370854b81ce10b86ff266171ea3fd5a9fcd0146e2a10a5e953e82a52d"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Cormy.blink.motion3.json",
+      "bytes": 878,
+      "sha256": "84706917236bca55730ebac9e0ee0cb8a9b1cac88ab30e3db633c0d56e6f86f2"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Cormy.cdi3.json",
+      "bytes": 8381,
+      "sha256": "85b99a084ef9512a5d81f6236305b2d98a6a2a6abf94669bb81a1163c5f53e21"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Cormy.icon.png",
+      "bytes": 376001,
+      "sha256": "33bd2a90a95b3c5a4a439475970d8b62ccce2726b517d53678347c75a97a42a0"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Cormy.idle.motion3.json",
+      "bytes": 14084,
+      "sha256": "89d469de11cf2730184e1b551b5b7ede48e55d1ae22a62d4d0981d2f9ac56077"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Cormy.moc3",
+      "bytes": 2355072,
+      "sha256": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Cormy.model3.json",
+      "bytes": 5307,
+      "sha256": "2910ca6320ae8ec0a39360221468583ffa5be8bde573f803b19b6011c153a5e4"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Cormy.nod.motion3.json",
+      "bytes": 1310,
+      "sha256": "ca7a08b86816949e5aa398722426651391a538bc65bba5306bafa5667ad32df1"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Cormy.physics3.json",
+      "bytes": 9126,
+      "sha256": "7cd1b032c6f7aa97067726efcae670f658e708593c1d95b522423b9e01099051"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Cormy.tailSwing.motion3.json",
+      "bytes": 1882,
+      "sha256": "be3c337e86cd83ee17c8b7fcf127e9571fc6982b27e54443c8bb2dae668531d0"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Cormy.vtube.json",
+      "bytes": 23472,
+      "sha256": "ebbf5060965a7e3e0c496bd88f6130937287cb7570958b7c1c5993106b1f9e5f"
+    },
+    {
+      "path": "VTubeStudio/Cormy/cortico.profile.json",
+      "bytes": 4447,
+      "sha256": "71fadd1f1201f53548ddf3177104861702070a07c10451a25ff5204044eb42fe"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/angry.exp3.json",
+      "bytes": 1512,
+      "sha256": "db4e9ef9b5cfa3cb0b2eeb5cc6b09f3b1c3c878a1d09376f9421d662f2aad074"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-angry.exp3.json",
+      "bytes": 1052,
+      "sha256": "2deb4fe3fd77a2fe694867578ffe640ed51a04b82fb347130c4b0cf705adda55"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-flustered.exp3.json",
+      "bytes": 1042,
+      "sha256": "f9c572a377e52c266babb37d2c4ecb1aae83513d843f9e6dab1b3a155b5ce1f8"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-laugh.exp3.json",
+      "bytes": 1041,
+      "sha256": "9f907f4223a1f4a15ea4585235de2e51d5862f8fda8f18196d97d84855afcf59"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-love.exp3.json",
+      "bytes": 1042,
+      "sha256": "20ca7b8e764e3fc6d3654178e14ecd63ceb78cf449267c19a85d5e561a76aaa9"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-moved.exp3.json",
+      "bytes": 1051,
+      "sha256": "589bc63a498786fde88de7770bdf7383e00c280d200f752df4ec8988524fc1bf"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-neutral.exp3.json",
+      "bytes": 1026,
+      "sha256": "f82442ac90cccaf8faa5a7d71c05fba021fc1e7283685d16bb8b4c39fffde539"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-pout.exp3.json",
+      "bytes": 1052,
+      "sha256": "c92a2eb695a8ed2e24a8ef9ee3125e0bccc2fd22eb5aed481ee12b8741790220"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-sad.exp3.json",
+      "bytes": 1045,
+      "sha256": "0e48df57c65383b227af5812be18eae2047968787305dbcf450429a3e32cade8"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-shy.exp3.json",
+      "bytes": 1046,
+      "sha256": "3bc16accd558e0529def059bbd4bfc4b8257d7d5eee40f79f541a16d2df76a64"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-sleepy.exp3.json",
+      "bytes": 1043,
+      "sha256": "aae748ef7c3e8a0a1b241cb5c70efb669bd4df74dde193f679a34ebc41e3d7d8"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-smile.exp3.json",
+      "bytes": 1043,
+      "sha256": "83d21b398ce4a5061f8be89b4db80cb439854aaaf0acd55de2a54572c1eb3f26"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-smug.exp3.json",
+      "bytes": 1051,
+      "sha256": "a05aca7d17fe0aaed514d67d313aa6adb21febe802091101b0f07d8d7c6a4034"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-starry.exp3.json",
+      "bytes": 1036,
+      "sha256": "beaba3fc217cc12693f27a7c6c77be0377a47a80a9f8cc1663096e51bb9ef1d5"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-surprised.exp3.json",
+      "bytes": 1034,
+      "sha256": "8039f832d88fc835ea0c68dfe930fb2b539cb4c21adee0a950d9bf07afb33019"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-thinking.exp3.json",
+      "bytes": 1049,
+      "sha256": "dba8f7abb2c38e67aa870402f2478af293fa9d0d667c851d250eea6255091fe2"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Emote-wink.exp3.json",
+      "bytes": 1038,
+      "sha256": "84e9760c02005d39872d2f4b9c11ccd937103d58142cee37f2d14621324ed65f"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/flustered.exp3.json",
+      "bytes": 1502,
+      "sha256": "906321385557be984306aadffaffa28a6b4589f5e34b10499d395fc5ceada1c2"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Fx-Anger.exp3.json",
+      "bytes": 199,
+      "sha256": "1ae0303f32ce81bde7eae62977909d73cad2f289d58fb77fcd20cc19473c2108"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Fx-Blush.exp3.json",
+      "bytes": 199,
+      "sha256": "46f8bd2fb542634b9595ab07cd67c9e6cc6850c0848d68afefb330f632818b12"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Fx-Heart.exp3.json",
+      "bytes": 199,
+      "sha256": "29476e11f97f7ad50d7d1d44ca40049c01f30decd373ddfe9c026283d09c526b"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Fx-Star.exp3.json",
+      "bytes": 201,
+      "sha256": "6f814ef4cf48ccd69742f351c16cdf0c4640d5aef434565121e8435d5c62a09a"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Fx-StarEyes.exp3.json",
+      "bytes": 202,
+      "sha256": "3dbf929683ad61b7b7766117e79d10e3159a14a5c8bbaa1b76604c7bdc775bfe"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/Fx-Sweat.exp3.json",
+      "bytes": 199,
+      "sha256": "9106d1d093ab3b14e1b5ef417c6a52a19414b68f8f1025d0bea1fb641616595a"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/laugh.exp3.json",
+      "bytes": 1501,
+      "sha256": "4348d9d5d6393c904206ba96293a8d8f5300164d9e2a770c33f37170f4349a41"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/love.exp3.json",
+      "bytes": 1502,
+      "sha256": "cdc265080a16d3e2839843fb0898fa3870c3dd36cedb2fd3eda9598c7f7545e2"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/moved.exp3.json",
+      "bytes": 1511,
+      "sha256": "42eea439350b7d300ceb8c2badc858c86b5df5a0f0b68cb6b9f28ba918b17ab4"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/neutral.exp3.json",
+      "bytes": 1486,
+      "sha256": "aa90c0d7bda526c5faf6ef393f5cc7722b9b7a3d090bda9a0625acaccd59156e"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/pout.exp3.json",
+      "bytes": 1512,
+      "sha256": "77d1a702d7dd3b6512b9403b83ae8860e85b1d0208bbca18643c5b11b94a862d"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/sad.exp3.json",
+      "bytes": 1505,
+      "sha256": "1ddee6da7426cacfb1ddecb2b1a7e306d4330f8c34fa24ed0aa98100acf0ce81"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/shy.exp3.json",
+      "bytes": 1506,
+      "sha256": "5628fc89e28170bd931b459cbc2c13bf2754dd65e145f04afc13251be6cbe7f0"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/sleepy.exp3.json",
+      "bytes": 1503,
+      "sha256": "33f89148aa4a8a2c2eebc1fa6933989a518453d63cd4d8f2e9dcd56550189b7e"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/smile.exp3.json",
+      "bytes": 1503,
+      "sha256": "f2e94f19fd4d5c06238075e8d75b1859a2a7ccd5331f413ad2529e8b6ac54bcb"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/smug.exp3.json",
+      "bytes": 1511,
+      "sha256": "df0e18677240152b861ce142ead43683b5c3dd9d1c23fa5c5741ec28d71ae32b"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/starry.exp3.json",
+      "bytes": 1496,
+      "sha256": "4e0a871877889b894f5c3fc9e09600de5df48979213fd4a4caac0fa13f8a708b"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/surprised.exp3.json",
+      "bytes": 1494,
+      "sha256": "662d08a36538fdfd3da19ac1efba71b0777ccb38cab8dfbc2d44281864bfff07"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/thinking.exp3.json",
+      "bytes": 1509,
+      "sha256": "bfa565a745c42208a9d6a9ef71659dd9357c092f0caf6b58c8daf794a3a4d03a"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Expressions/wink.exp3.json",
+      "bytes": 1498,
+      "sha256": "ad98f645c6d5896758a0a72431994e1e38f07c3b992c3e8e72720f2fc1fc6040"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Motions/cheer.motion3.json",
+      "bytes": 2499,
+      "sha256": "2e84f4ec02e9733b750b49b965c61e599b3ec3828f0fb3cbc991c2975d21e547"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Motions/earFlick.motion3.json",
+      "bytes": 1125,
+      "sha256": "4e879bd230b518aec6ade44347a526f7274699331debfc1b63575e8daa6c0ae7"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Motions/littleStep.motion3.json",
+      "bytes": 2136,
+      "sha256": "ec4b8bac8773b4256643d10144e5c1a9df22a1b26c771df46541e335f1bccf52"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Motions/poutBounce.motion3.json",
+      "bytes": 1324,
+      "sha256": "c78b346af546a98e3e03c7c57e5ef346da34f6330e689d982c2eb6f58c997c4a"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Motions/shyHands.motion3.json",
+      "bytes": 2103,
+      "sha256": "ca0be981e1d643a9592004d5a74a9be4961ef574c0df422afa30c10c469c3527"
+    },
+    {
+      "path": "VTubeStudio/Cormy/Motions/wave.motion3.json",
+      "bytes": 1375,
+      "sha256": "c93e16efdf13963bdec7d9bd43cc53673a6bb94a1acde82d06a5c7bf244300b4"
+    }
+  ],
+  "manifestSelfHashIncluded": false
+}

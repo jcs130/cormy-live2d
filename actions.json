@@ -1,0 +1,87 @@
+{
+  "revision": "6.7",
+  "actions": [
+    {
+      "id": "wave",
+      "label": "招手",
+      "file": "Motions/wave.motion3.json",
+      "duration": 3.6,
+      "parameters": [
+        "ParamArmRA",
+        "ParamArmRB",
+        "ParamHandR"
+      ],
+      "note": "抬起右手，轻轻挥手"
+    },
+    {
+      "id": "cheer",
+      "label": "双手欢呼",
+      "file": "Motions/cheer.motion3.json",
+      "duration": 3.8,
+      "parameters": [
+        "ParamArmLA",
+        "ParamArmRA",
+        "ParamArmLB",
+        "ParamArmRB",
+        "ParamHandL",
+        "ParamHandR"
+      ],
+      "note": "双手抬起，小幅开心摆动"
+    },
+    {
+      "id": "shyHands",
+      "label": "害羞收手",
+      "file": "Motions/shyHands.motion3.json",
+      "duration": 3.4,
+      "parameters": [
+        "ParamArmLA",
+        "ParamArmRA",
+        "ParamArmLB",
+        "ParamArmRB",
+        "ParamHandL",
+        "ParamHandR"
+      ],
+      "note": "轻收双手，可与害羞表情叠加"
+    },
+    {
+      "id": "littleStep",
+      "label": "轻摆腿",
+      "file": "Motions/littleStep.motion3.json",
+      "duration": 3.4,
+      "parameters": [
+        "ParamLegRA",
+        "ParamLegRB",
+        "ParamFootR",
+        "ParamLegLA",
+        "ParamLegLB",
+        "ParamFootL"
+      ],
+      "note": "交替轻摆腿，不做大幅踢腿"
+    },
+    {
+      "id": "earFlick",
+      "label": "耳朵轻抖",
+      "file": "Motions/earFlick.motion3.json",
+      "duration": 2.5,
+      "parameters": [
+        "ParamEarL",
+        "ParamEarR"
+      ],
+      "note": "两耳轻抖，小灯随同一耳朵移动"
+    },
+    {
+      "id": "poutBounce",
+      "label": "气鼓鼓动作",
+      "file": "Motions/poutBounce.motion3.json",
+      "duration": 3.2,
+      "parameters": [
+        "ParamArmRA",
+        "ParamArmLA",
+        "ParamFxPulse"
+      ],
+      "note": "轻张双臂，表情符号小幅鼓动"
+    }
+  ],
+  "loop": false,
+  "scope": "Native independent limbs and ear/emote motion; frontal 2D, no finger tracking."
+}

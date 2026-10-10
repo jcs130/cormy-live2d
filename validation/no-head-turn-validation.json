@@ -1,0 +1,13 @@
+{
+  "revision": "6.7",
+  "createdAt": "2026-10-10T08:32:13.453Z",
+  "renderer": "Real Cubism Core",
+  "mocSha256": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134",
+  "baselineMocSha256": "7660b2b707fc2cb74393952f4275926fcf11f379d98b096a0437976b41ddb64e",
+  "neutralMaxDeltaPx": 0,
+  "combinedYawChecks": 2592,
+  "maxYawGeometryDeltaPx": 0.00018310546875,
+  "maxYawOpacityDelta": 0,
+  "trackingYawDisabled": true,
+  "passed": true
+}

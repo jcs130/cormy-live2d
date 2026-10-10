@@ -1,0 +1,12 @@
+{
+  "Type": "Live2D Expression",
+  "FadeInTime": 0.15,
+  "FadeOutTime": 0.25,
+  "Parameters": [
+    {
+      "Id": "ParamFxSparkle",
+      "Value": 1,
+      "Blend": "Overwrite"
+    }
+  ]
+}

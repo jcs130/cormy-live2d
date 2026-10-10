@@ -1,0 +1,197 @@
+{
+  "id": "VTS-Cormy-NoTurn",
+  "label": "可米 Cormy · 正面版",
+  "backend": "vts",
+  "vtsModelName": "Cormy NoTurn",
+  "wiring": {
+    "FaceAngleX": {
+      "neutral": 0,
+      "scale": 0,
+      "clamp": [
+        0,
+        0
+      ]
+    },
+    "FaceAngleY": {
+      "neutral": 0.0,
+      "scale": 1.0,
+      "clamp": [
+        -30.0,
+        30.0
+      ]
+    },
+    "FaceAngleZ": {
+      "neutral": 0.0,
+      "scale": 1.0,
+      "clamp": [
+        -30.0,
+        30.0
+      ]
+    },
+    "EyeOpenLeft": {
+      "neutral": 1.0,
+      "scale": 1.0,
+      "clamp": [
+        0.0,
+        1.0
+      ]
+    },
+    "EyeOpenRight": {
+      "neutral": 1.0,
+      "scale": 1.0,
+      "clamp": [
+        0.0,
+        1.0
+      ]
+    },
+    "EyeRightX": {
+      "neutral": 0.0,
+      "scale": 1.0,
+      "clamp": [
+        -1.0,
+        1.0
+      ]
+    },
+    "EyeRightY": {
+      "neutral": 0.0,
+      "scale": 1.0,
+      "clamp": [
+        -1.0,
+        1.0
+      ]
+    },
+    "BrowLeftY": {
+      "neutral": 0.5,
+      "scale": 0.5,
+      "clamp": [
+        0.0,
+        1.0
+      ]
+    },
+    "BrowRightY": {
+      "neutral": 0.5,
+      "scale": 0.5,
+      "clamp": [
+        0.0,
+        1.0
+      ]
+    },
+    "MouthSmile": {
+      "neutral": 0.5,
+      "scale": 0.5,
+      "clamp": [
+        0.0,
+        1.0
+      ]
+    },
+    "MouthOpen": {
+      "neutral": 0.0,
+      "scale": 1.0,
+      "clamp": [
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "unsupported": [
+    "CheekPuff",
+    "EyeLeftX",
+    "EyeLeftY"
+  ],
+  "fx": {
+    "fx_anger": {
+      "file": "Fx-Anger.exp3.json",
+      "durationMs": 1600
+    },
+    "fx_sweat": {
+      "file": "Fx-Sweat.exp3.json",
+      "durationMs": 1600
+    },
+    "fx_star": {
+      "file": "Fx-Star.exp3.json",
+      "durationMs": 1800
+    },
+    "fx_blush": {
+      "file": "Fx-Blush.exp3.json",
+      "durationMs": 1800
+    },
+    "fx_heart": {
+      "file": "Fx-Heart.exp3.json",
+      "durationMs": 1800
+    }
+  },
+  "keepExpressions": [],
+  "idleBlinks": true,
+  "caveat": "v6.7：左右转头在模型绑定中关闭。保留 v6.4 正脸、16 表情、6 动作、自然眨眼、口型、歪头、耳灯及尾巴物理。",
+  "emotionMap": {
+    "smile": "Emote-smile.exp3.json",
+    "laugh": "Emote-laugh.exp3.json",
+    "angry": [
+      "Emote-angry.exp3.json",
+      "Fx-Anger.exp3.json"
+    ],
+    "pitiful": "Emote-sad.exp3.json",
+    "fearful": [
+      "Emote-flustered.exp3.json",
+      "Fx-Sweat.exp3.json"
+    ],
+    "moved": "Emote-moved.exp3.json",
+    "surprised": "Emote-surprised.exp3.json",
+    "sleepy": "Emote-sleepy.exp3.json",
+    "shy": "Emote-shy.exp3.json",
+    "thinking": "Emote-thinking.exp3.json",
+    "smug_hold": "Emote-smug.exp3.json",
+    "pout": [
+      "Emote-pout.exp3.json",
+      "Fx-Anger.exp3.json"
+    ],
+    "starry": [
+      "Emote-starry.exp3.json",
+      "Fx-StarEyes.exp3.json"
+    ],
+    "love": [
+      "Emote-love.exp3.json",
+      "Fx-Heart.exp3.json"
+    ],
+    "happy": "Emote-smile.exp3.json",
+    "sad": "Emote-sad.exp3.json",
+    "afraid": [
+      "Emote-flustered.exp3.json",
+      "Fx-Sweat.exp3.json"
+    ],
+    "gentle": "Emote-smile.exp3.json",
+    "playful": "Emote-smug.exp3.json",
+    "warm": "Emote-moved.exp3.json",
+    "serious": "Emote-thinking.exp3.json",
+    "calm": "Emote-neutral.exp3.json",
+    "平静": "Emote-neutral.exp3.json",
+    "开心": "Emote-smile.exp3.json",
+    "生气": [
+      "Emote-angry.exp3.json",
+      "Fx-Anger.exp3.json"
+    ],
+    "难过": "Emote-sad.exp3.json",
+    "害怕": [
+      "Emote-flustered.exp3.json",
+      "Fx-Sweat.exp3.json"
+    ],
+    "惊讶": "Emote-surprised.exp3.json",
+    "温柔": "Emote-smile.exp3.json",
+    "俏皮": "Emote-smug.exp3.json",
+    "温暖": "Emote-moved.exp3.json",
+    "严肃": "Emote-thinking.exp3.json",
+    "紧张": [
+      "Emote-flustered.exp3.json",
+      "Fx-Sweat.exp3.json"
+    ]
+  },
+  "motionMap": {
+    "wave": "b3cd32ed58965cedb719c9db79e90d81",
+    "excited_bounce": "2df01980f7fa5022a18d35f774c55754",
+    "shy_hands": "22566cf33f445b6f9278fd8dc966ff17",
+    "little_step": "4297100292565163903e0f65b06edf87",
+    "ear_flick": "4a21c1ab4afc511d8ed19077332205a6",
+    "pout_puff": "66950c2f5ec45ddebe3bb415017f79e2"
+  },
+  "gazeSmoothingMs": 55
+}

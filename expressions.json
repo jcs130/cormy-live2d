@@ -1,0 +1,102 @@
+{
+  "revision": "6.7",
+  "presets": [
+    {
+      "id": "neutral",
+      "label": "自然",
+      "file": "Expressions/neutral.exp3.json",
+      "note": "回到平静；VTS 使用“恢复自然”清除表情"
+    },
+    {
+      "id": "smile",
+      "label": "微笑",
+      "file": "Expressions/smile.exp3.json",
+      "note": "接话、轻松聊天"
+    },
+    {
+      "id": "laugh",
+      "label": "开心笑",
+      "file": "Expressions/laugh.exp3.json",
+      "note": "笑眼；口型仍跟随说话"
+    },
+    {
+      "id": "shy",
+      "label": "害羞",
+      "file": "Expressions/shy.exp3.json",
+      "note": "脸红、略收眼神"
+    },
+    {
+      "id": "surprised",
+      "label": "惊讶",
+      "file": "Expressions/surprised.exp3.json",
+      "note": "睁大眼睛、抬眉；不强制撑开嘴巴"
+    },
+    {
+      "id": "thinking",
+      "label": "思考",
+      "file": "Expressions/thinking.exp3.json",
+      "note": "一侧挑眉，疑惑观察"
+    },
+    {
+      "id": "smug",
+      "label": "得意",
+      "file": "Expressions/smug.exp3.json",
+      "note": "略眯眼的得意笑"
+    },
+    {
+      "id": "sad",
+      "label": "委屈",
+      "file": "Expressions/sad.exp3.json",
+      "note": "内眉上提，嘴角下垂"
+    },
+    {
+      "id": "angry",
+      "label": "认真生气",
+      "file": "Expressions/angry.exp3.json",
+      "note": "内眉下压；不过度扭曲脸型"
+    },
+    {
+      "id": "sleepy",
+      "label": "困倦",
+      "file": "Expressions/sleepy.exp3.json",
+      "note": "眼皮放松，仍能眨眼"
+    },
+    {
+      "id": "moved",
+      "label": "感动",
+      "file": "Expressions/moved.exp3.json",
+      "note": "柔和眉眼、浅笑"
+    },
+    {
+      "id": "wink",
+      "label": "俏皮眨眼",
+      "file": "Expressions/wink.exp3.json",
+      "note": "单眼闭合，另一侧仍跟随眨眼"
+    },
+    {
+      "id": "pout",
+      "label": "气鼓鼓 💢",
+      "file": "Expressions/pout.exp3.json",
+      "note": "暖橘色生气符号；可搭配气鼓鼓动作"
+    },
+    {
+      "id": "flustered",
+      "label": "慌张汗滴",
+      "file": "Expressions/flustered.exp3.json",
+      "note": "一滴淡蓝色汗珠，不遮住眼睛"
+    },
+    {
+      "id": "starry",
+      "label": "星星眼 ✨",
+      "file": "Expressions/starry.exp3.json",
+      "note": "眼内星光跟随注视，闭眼时隐藏；头侧金色闪光"
+    },
+    {
+      "id": "love",
+      "label": "心动爱心",
+      "file": "Expressions/love.exp3.json",
+      "note": "两颗柔和爱心；切回自然会清除符号"
+    }
+  ],
+  "blending": "Native eye-style × blink grid; complete facial and emote presets overwrite without stacking; lip opening stays live."
+}

@@ -1,0 +1,246 @@
+{
+  "revision": "6.7",
+  "createdAt": "2026-10-10T08:33:14.222Z",
+  "modelSha256": "12f80f1a00202e6fecc0e395c4c99aa448c9e6c527c3f2f30d3990f3d2925134",
+  "limbs": [
+    {
+      "id": "ParamArmRA",
+      "mesh": "arm-r",
+      "maxMotionPx": 159.6553955078125,
+      "unrelatedMotionPx": 0
+    },
+    {
+      "id": "ParamArmRB",
+      "mesh": "arm-r",
+      "maxMotionPx": 85.374267578125,
+      "unrelatedMotionPx": 0
+    },
+    {
+      "id": "ParamHandR",
+      "mesh": "arm-r",
+      "maxMotionPx": 19.13690185546875,
+      "unrelatedMotionPx": 0
+    },
+    {
+      "id": "ParamArmLA",
+      "mesh": "arm-l",
+      "maxMotionPx": 159.51974487304688,
+      "unrelatedMotionPx": 0
+    },
+    {
+      "id": "ParamArmLB",
+      "mesh": "arm-l",
+      "maxMotionPx": 85.29852294921875,
+      "unrelatedMotionPx": 0
+    },
+    {
+      "id": "ParamHandL",
+      "mesh": "arm-l",
+      "maxMotionPx": 19.07318115234375,
+      "unrelatedMotionPx": 0
+    },
+    {
+      "id": "ParamLegRA",
+      "mesh": "leg-r",
+      "maxMotionPx": 52.95474624633789,
+      "unrelatedMotionPx": 0
+    },
+    {
+      "id": "ParamLegRB",
+      "mesh": "leg-r",
+      "maxMotionPx": 34.37772750854492,
+      "unrelatedMotionPx": 0
+    },
+    {
+      "id": "ParamFootR",
+      "mesh": "leg-r",
+      "maxMotionPx": 17.42459487915039,
+      "unrelatedMotionPx": 0
+    },
+    {
+      "id": "ParamLegLA",
+      "mesh": "leg-l",
+      "maxMotionPx": 52.88595962524414,
+      "unrelatedMotionPx": 0
+    },
+    {
+      "id": "ParamLegLB",
+      "mesh": "leg-l",
+      "maxMotionPx": 34.33779525756836,
+      "unrelatedMotionPx": 0
+    },
+    {
+      "id": "ParamFootL",
+      "mesh": "leg-l",
+      "maxMotionPx": 17.39748764038086,
+      "unrelatedMotionPx": 0
+    }
+  ],
+  "effects": [
+    {
+      "id": "ParamFxAnger",
+      "mesh": "face detail fx anger",
+      "neutralHidden": true,
+      "activeShown": true,
+      "resetHidden": true,
+      "clipped": false
+    },
+    {
+      "id": "ParamFxSweat",
+      "mesh": "face detail fx sweat",
+      "neutralHidden": true,
+      "activeShown": true,
+      "resetHidden": true,
+      "clipped": false
+    },
+    {
+      "id": "ParamFxHeart",
+      "mesh": "face detail fx hearts",
+      "neutralHidden": true,
+      "activeShown": true,
+      "resetHidden": true,
+      "clipped": false
+    },
+    {
+      "id": "ParamFxSparkle",
+      "mesh": "face detail fx sparkles",
+      "neutralHidden": true,
+      "activeShown": true,
+      "resetHidden": true,
+      "clipped": false
+    },
+    {
+      "id": "ParamFxStarEyes",
+      "mesh": "face detail fx star-l",
+      "neutralHidden": true,
+      "activeShown": true,
+      "resetHidden": true,
+      "clipped": true
+    },
+    {
+      "id": "ParamFxStarEyes",
+      "mesh": "face detail fx star-r",
+      "neutralHidden": true,
+      "activeShown": true,
+      "resetHidden": true,
+      "clipped": true
+    }
+  ],
+  "motionFrames": 603,
+  "failures": [],
+  "motionBounds": [
+    {
+      "id": "wave",
+      "bounds": [
+        8.453704833984375,
+        268.2301025390625,
+        804.4861755371094,
+        1502.8624877929688
+      ]
+    },
+    {
+      "id": "cheer",
+      "bounds": [
+        9.41632080078125,
+        265.3128356933594,
+        1016.7401123046875,
+        1502.8624877929688
+      ]
+    },
+    {
+      "id": "shyHands",
+      "bounds": [
+        200.858154296875,
+        429.6161193847656,
+        825.7232666015625,
+        1502.8624877929688
+      ]
+    },
+    {
+      "id": "littleStep",
+      "bounds": [
+        222.49850463867188,
+        429.6161193847656,
+        804.4861755371094,
+        1502.8624877929688
+      ]
+    },
+    {
+      "id": "earFlick",
+      "bounds": [
+        222.49850463867188,
+        429.6161193847656,
+        804.4861755371094,
+        1502.8624877929688
+      ]
+    },
+    {
+      "id": "poutBounce",
+      "bounds": [
+        175.44027709960938,
+        425.7320251464844,
+        851.1032409667969,
+        1502.8624877929688
+      ]
+    }
+  ],
+  "lantern": [
+    {
+      "joint": "ear-to-loop",
+      "sourceCanvasLandmark": [
+        627,
+        88
+      ],
+      "nearestDistances": [
+        0,
+        0
+      ],
+      "neutralGap": 1.4210854715202004e-14,
+      "maxGap": 0.24980541473761098,
+      "maxRelativeDriftPx": 0.24980541473760653,
+      "checks": 27
+    },
+    {
+      "joint": "loop-to-lantern",
+      "sourceCanvasLandmark": [
+        628,
+        101
+      ],
+      "nearestDistances": [
+        0.8169945236966507,
+        0
+      ],
+      "neutralGap": 0.8169945236966485,
+      "maxGap": 0.8171561661756334,
+      "maxRelativeDriftPx": 0.21329993596326327,
+      "checks": 27
+    }
+  ],
+  "earRoots": [
+    {
+      "name": "ears-l",
+      "baseVertices": 12,
+      "maxEarFlickDriftPx": 0,
+      "checks": 18
+    },
+    {
+      "name": "ears-r",
+      "baseVertices": 13,
+      "maxEarFlickDriftPx": 0,
+      "checks": 18
+    }
+  ],
+  "eyeAperture": [
+    {
+      "side": "L",
+      "halfOpenHeightPx": 11.83660888671875,
+      "fullyOpenHeightPx": 21.97808837890625
+    },
+    {
+      "side": "R",
+      "halfOpenHeightPx": 11.82177734375,
+      "fullyOpenHeightPx": 21.89324951171875
+    }
+  ],
+  "passed": true
+}

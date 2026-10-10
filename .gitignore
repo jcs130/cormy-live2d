@@ -1,0 +1,7 @@
+scripts/build/
+__pycache__/
+verification/vendor/
+preview/
+preview-idle/
+*.log
+.DS_Store

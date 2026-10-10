@@ -1,0 +1,648 @@
+{
+  "canvas": {
+    "width": 1024,
+    "height": 1536
+  },
+  "order": "bottom-to-top",
+  "layers": [
+    {
+      "name": "tail",
+      "source": "cormy-tail.png",
+      "sourceRect": null,
+      "alphaBounds": {
+        "left": 206,
+        "top": 50,
+        "width": 751,
+        "height": 1411
+      },
+      "placement": {
+        "left": 590,
+        "top": 715,
+        "width": 220,
+        "height": 420
+      },
+      "neutral": true
+    },
+    {
+      "name": "back hair",
+      "source": "cormy-head-parts-atlas.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 0,
+        "width": 547,
+        "height": 512
+      },
+      "alphaBounds": {
+        "left": 15,
+        "top": 40,
+        "width": 532,
+        "height": 472
+      },
+      "placement": {
+        "left": 368,
+        "top": 40,
+        "width": 288,
+        "height": 248
+      },
+      "neutral": true
+    },
+    {
+      "name": "arm-r",
+      "source": "arm-r.png",
+      "placement": {
+        "left": 218,
+        "top": 270,
+        "width": 591,
+        "height": 1236
+      },
+      "neutral": true,
+      "sourceKind": "Partition of approved topwear PSD pixels"
+    },
+    {
+      "name": "arm-l",
+      "source": "arm-l.png",
+      "placement": {
+        "left": 218,
+        "top": 270,
+        "width": 591,
+        "height": 1236
+      },
+      "neutral": true,
+      "sourceKind": "Partition of approved topwear PSD pixels"
+    },
+    {
+      "name": "leg-r",
+      "source": "leg-r.png",
+      "placement": {
+        "left": 218,
+        "top": 270,
+        "width": 591,
+        "height": 1236
+      },
+      "neutral": true,
+      "sourceKind": "Partition of approved topwear PSD pixels"
+    },
+    {
+      "name": "leg-l",
+      "source": "leg-l.png",
+      "placement": {
+        "left": 218,
+        "top": 270,
+        "width": 591,
+        "height": 1236
+      },
+      "neutral": true,
+      "sourceKind": "Partition of approved topwear PSD pixels"
+    },
+    {
+      "name": "topwear",
+      "source": "topwear.png",
+      "sourceRect": null,
+      "alphaBounds": {
+        "left": 176,
+        "top": 84,
+        "width": 670,
+        "height": 1380
+      },
+      "placement": {
+        "left": 218,
+        "top": 270,
+        "width": 591,
+        "height": 1236
+      },
+      "neutral": true
+    },
+    {
+      "name": "ears-r",
+      "source": "cormy-head-parts-atlas.png",
+      "sourceRect": {
+        "left": 20,
+        "top": 600,
+        "width": 235,
+        "height": 295
+      },
+      "alphaBounds": {
+        "left": 45,
+        "top": 642,
+        "width": 194,
+        "height": 233
+      },
+      "placement": {
+        "left": 384,
+        "top": 20,
+        "width": 96,
+        "height": 108
+      },
+      "neutral": true
+    },
+    {
+      "name": "ears-l",
+      "source": "cormy-head-parts-atlas.png",
+      "sourceRect": {
+        "left": 270,
+        "top": 600,
+        "width": 235,
+        "height": 295
+      },
+      "alphaBounds": {
+        "left": 286,
+        "top": 639,
+        "width": 197,
+        "height": 235
+      },
+      "placement": {
+        "left": 544,
+        "top": 20,
+        "width": 96,
+        "height": 108
+      },
+      "neutral": true
+    },
+    {
+      "name": "face",
+      "source": "cormy-head-parts-atlas.png",
+      "sourceRect": {
+        "left": 575,
+        "top": 0,
+        "width": 410,
+        "height": 512
+      },
+      "alphaBounds": {
+        "left": 593,
+        "top": 107,
+        "width": 356,
+        "height": 388
+      },
+      "placement": {
+        "left": 422,
+        "top": 70,
+        "width": 180,
+        "height": 218
+      },
+      "neutral": true
+    },
+    {
+      "name": "blush",
+      "source": "blush.svg",
+      "placement": {
+        "left": 437,
+        "top": 213,
+        "width": 150,
+        "height": 34
+      },
+      "neutral": false,
+      "visibilityParameter": "ParamBlush"
+    },
+    {
+      "name": "front hair 2-r",
+      "source": "cormy-head-parts-atlas.png",
+      "sourceRect": {
+        "left": 512,
+        "top": 512,
+        "width": 270,
+        "height": 512
+      },
+      "alphaBounds": {
+        "left": 519,
+        "top": 547,
+        "width": 203,
+        "height": 425
+      },
+      "placement": {
+        "left": 366,
+        "top": 95,
+        "width": 80,
+        "height": 186
+      },
+      "neutral": true
+    },
+    {
+      "name": "front hair 3-l",
+      "source": "cormy-head-parts-atlas.png",
+      "sourceRect": {
+        "left": 782,
+        "top": 512,
+        "width": 250,
+        "height": 512
+      },
+      "alphaBounds": {
+        "left": 818,
+        "top": 547,
+        "width": 213,
+        "height": 425
+      },
+      "placement": {
+        "left": 580,
+        "top": 95,
+        "width": 80,
+        "height": 186
+      },
+      "neutral": true
+    },
+    {
+      "name": "eyewhite-r",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 0,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 64,
+        "top": 173,
+        "width": 257,
+        "height": 105
+      },
+      "placement": {
+        "left": 450,
+        "top": 192,
+        "width": 56,
+        "height": 23
+      },
+      "neutral": true
+    },
+    {
+      "name": "eyewhite-l",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 362,
+        "top": 0,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 430,
+        "top": 173,
+        "width": 256,
+        "height": 105
+      },
+      "placement": {
+        "left": 518,
+        "top": 192,
+        "width": 56,
+        "height": 23
+      },
+      "neutral": true
+    },
+    {
+      "name": "irides-r",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 724,
+        "top": 0,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 829,
+        "top": 131,
+        "width": 165,
+        "height": 171
+      },
+      "placement": {
+        "left": 465,
+        "top": 187,
+        "width": 26,
+        "height": 30
+      },
+      "neutral": true
+    },
+    {
+      "name": "irides-l",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 1086,
+        "top": 0,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 1182,
+        "top": 131,
+        "width": 163,
+        "height": 171
+      },
+      "placement": {
+        "left": 533,
+        "top": 187,
+        "width": 26,
+        "height": 30
+      },
+      "neutral": true
+    },
+    {
+      "name": "eyelash-r",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 362,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 41,
+        "top": 503,
+        "width": 285,
+        "height": 102
+      },
+      "placement": {
+        "left": 444,
+        "top": 185,
+        "width": 62,
+        "height": 23
+      },
+      "neutral": true
+    },
+    {
+      "name": "eyelash-l",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 362,
+        "top": 362,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 412,
+        "top": 504,
+        "width": 283,
+        "height": 100
+      },
+      "placement": {
+        "left": 516,
+        "top": 185,
+        "width": 62,
+        "height": 23
+      },
+      "neutral": true
+    },
+    {
+      "name": "eyebrow-r",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 724,
+        "top": 362,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 770,
+        "top": 512,
+        "width": 265,
+        "height": 56
+      },
+      "placement": {
+        "left": 453,
+        "top": 177,
+        "width": 47,
+        "height": 9
+      },
+      "neutral": true
+    },
+    {
+      "name": "eyebrow-l",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 1086,
+        "top": 362,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 1137,
+        "top": 512,
+        "width": 266,
+        "height": 56
+      },
+      "placement": {
+        "left": 522,
+        "top": 177,
+        "width": 47,
+        "height": 9
+      },
+      "neutral": true
+    },
+    {
+      "name": "mouth open",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 724,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 102,
+        "top": 845,
+        "width": 170,
+        "height": 103
+      },
+      "placement": {
+        "left": 498,
+        "top": 240,
+        "width": 28,
+        "height": 23
+      },
+      "neutral": false
+    },
+    {
+      "name": "mouth close",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 362,
+        "top": 724,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 420,
+        "top": 867,
+        "width": 243,
+        "height": 53
+      },
+      "placement": {
+        "left": 498,
+        "top": 247,
+        "width": 28,
+        "height": 4
+      },
+      "neutral": true
+    },
+    {
+      "name": "eye close-r",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 724,
+        "top": 724,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 773,
+        "top": 850,
+        "width": 246,
+        "height": 84
+      },
+      "placement": {
+        "left": 448,
+        "top": 201,
+        "width": 56,
+        "height": 10
+      },
+      "neutral": false
+    },
+    {
+      "name": "eye close-l",
+      "source": "cormy-face-parts-atlas.png",
+      "sourceRect": {
+        "left": 1086,
+        "top": 724,
+        "width": 362,
+        "height": 362
+      },
+      "alphaBounds": {
+        "left": 1152,
+        "top": 850,
+        "width": 246,
+        "height": 83
+      },
+      "placement": {
+        "left": 518,
+        "top": 201,
+        "width": 56,
+        "height": 10
+      },
+      "neutral": false
+    },
+    {
+      "name": "front hair 1",
+      "source": "cormy-head-parts-atlas.png",
+      "sourceRect": {
+        "left": 1005,
+        "top": 0,
+        "width": 531,
+        "height": 512
+      },
+      "alphaBounds": {
+        "left": 1006,
+        "top": 50,
+        "width": 529,
+        "height": 457
+      },
+      "placement": {
+        "left": 362,
+        "top": 40,
+        "width": 300,
+        "height": 205
+      },
+      "neutral": true
+    },
+    {
+      "name": "headwear",
+      "source": "cormy-head-parts-atlas.png",
+      "sourceRect": {
+        "left": 1032,
+        "top": 512,
+        "width": 504,
+        "height": 512
+      },
+      "alphaBounds": {
+        "left": 1195,
+        "top": 583,
+        "width": 172,
+        "height": 373
+      },
+      "placement": {
+        "left": 606,
+        "top": 85,
+        "width": 46,
+        "height": 94
+      },
+      "neutral": true
+    },
+    {
+      "name": "headwear connector",
+      "source": "lantern-connector.svg",
+      "placement": {
+        "left": 622,
+        "top": 84,
+        "width": 17,
+        "height": 21
+      },
+      "neutral": true
+    },
+    {
+      "name": "face detail fx anger",
+      "source": "fx-anger.svg",
+      "placement": {
+        "left": 646,
+        "top": 91,
+        "width": 58,
+        "height": 69
+      },
+      "neutral": false,
+      "visibilityParameter": "ParamFxAnger"
+    },
+    {
+      "name": "face detail fx sweat",
+      "source": "fx-sweat.svg",
+      "placement": {
+        "left": 644,
+        "top": 171,
+        "width": 30,
+        "height": 56
+      },
+      "neutral": false,
+      "visibilityParameter": "ParamFxSweat"
+    },
+    {
+      "name": "face detail fx hearts",
+      "source": "fx-hearts.svg",
+      "placement": {
+        "left": 325,
+        "top": 130,
+        "width": 55,
+        "height": 92
+      },
+      "neutral": false,
+      "visibilityParameter": "ParamFxHeart"
+    },
+    {
+      "name": "face detail fx sparkles",
+      "source": "fx-sparkles.svg",
+      "placement": {
+        "left": 321,
+        "top": 60,
+        "width": 384,
+        "height": 218
+      },
+      "neutral": false,
+      "visibilityParameter": "ParamFxSparkle"
+    },
+    {
+      "name": "face detail fx star-r",
+      "source": "fx-star-r.svg",
+      "placement": {
+        "left": 465,
+        "top": 194,
+        "width": 26,
+        "height": 19
+      },
+      "neutral": false,
+      "visibilityParameter": "ParamFxStarEyes"
+    },
+    {
+      "name": "face detail fx star-l",
+      "source": "fx-star-l.svg",
+      "placement": {
+        "left": 533,
+        "top": 194,
+        "width": 26,
+        "height": 19
+      },
+      "neutral": false,
+      "visibilityParameter": "ParamFxStarEyes"
+    }
+  ]
+}

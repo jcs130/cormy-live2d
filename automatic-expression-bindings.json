@@ -1,0 +1,50 @@
+[
+  {
+    "Folder": "可米表情",
+    "Name": "可米 · 左眉形",
+    "Input": "BrowLeftY",
+    "InputRangeLower": 0.0,
+    "InputRangeUpper": 1.0,
+    "OutputRangeLower": -0.75,
+    "OutputRangeUpper": 0.75,
+    "ClampInput": true,
+    "ClampOutput": true,
+    "UseBlinking": false,
+    "UseBreathing": false,
+    "OutputLive2D": "ParamBrowLAngle",
+    "Smoothing": 15,
+    "Minimized": false
+  },
+  {
+    "Folder": "可米表情",
+    "Name": "可米 · 右眉形",
+    "Input": "BrowRightY",
+    "InputRangeLower": 0.0,
+    "InputRangeUpper": 1.0,
+    "OutputRangeLower": -0.75,
+    "OutputRangeUpper": 0.75,
+    "ClampInput": true,
+    "ClampOutput": true,
+    "UseBlinking": false,
+    "UseBreathing": false,
+    "OutputLive2D": "ParamBrowRAngle",
+    "Smoothing": 15,
+    "Minimized": false
+  },
+  {
+    "Folder": "可米表情",
+    "Name": "可米 · 笑眼",
+    "Input": "MouthSmile",
+    "InputRangeLower": 0.5,
+    "InputRangeUpper": 1.0,
+    "OutputRangeLower": 0,
+    "OutputRangeUpper": 1,
+    "ClampInput": true,
+    "ClampOutput": true,
+    "UseBlinking": false,
+    "UseBreathing": false,
+    "OutputLive2D": "ParamEyeSmile",
+    "Smoothing": 15,
+    "Minimized": false
+  }
+]
