@@ -1,0 +1,57 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>可米 Cormy · 原版皮肤 v3</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f6f5f1;color:#513c32;font:14px/1.6 system-ui,'Microsoft Yahei',sans-serif}main{max-width:1260px;margin:auto;padding:25px 28px 32px}header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}h1{margin:0;font:600 29px Georgia,serif;letter-spacing:.05em}header p{margin:4px 0;color:#907969}.tag{font-size:12px;border:1px solid #d7c9bc;padding:6px 14px;border-radius:20px}.toolbar{display:flex;gap:16px;align-items:center;flex-wrap:wrap;padding:13px 16px;background:#fffdf9;border:1px solid #e5dbcf;border-radius:13px;margin-bottom:18px}label{display:flex;align-items:center;gap:8px}select,button,.download{font:inherit;color:#5e4536;border:1px solid #ddcaba;border-radius:7px;background:#fffaf4;padding:7px 10px;cursor:pointer}.download{margin-left:auto;background:#70503c;color:#fff9ef;text-decoration:none;border:0}input{accent-color:#a3653e}.views{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{position:relative;border:1px solid #e4ddd3;border-radius:16px;overflow:hidden;background:radial-gradient(ellipse at 50% 40%,#fffefb,#e6e6e0)}h2{position:absolute;left:19px;top:11px;margin:0;font-size:14px;font-weight:500;color:#967b66}.stage{height:550px}canvas{display:block;width:100%;height:100%}.notes{display:flex;gap:32px;margin:18px 4px 0;color:#8e7869;font-size:12px}.notes p{margin:0}.status{margin-top:15px;color:#9b806b;font-size:12px}a{color:#886044}@media(max-width:800px){main{padding:20px 14px}.views{grid-template-columns:1fr}.stage{height:520px}.tag{display:none}.download{margin-left:0}.notes{display:block}}
+</style>
+<main><header><div><h1>CORMY · 可米</h1><p>奶白探险装 v3 · 琥珀眼与橘白短发</p></div><span class="tag">原版 64 × 64 · 实际贴图渲染</span></header>
+<div class="toolbar">
+<label>手臂<select id="model" aria-label="手臂"><option value="slim">Slim 细手臂</option><option value="classic">Classic 普通手臂</option></select></label>
+<label>版本<select id="version" aria-label="版本"><option value="new">新版 v3</option><option value="old">上版 v2</option></select></label>
+<label>动作<select id="motion" aria-label="动作"><option value="idle">站姿</option><option value="walk">走路</option><option value="run">跑步</option></select></label>
+<label><input id="outer" type="checkbox" checked>第二层</label><button id="face">面部特写</button>
+<a id="download" class="download" href="../cormy-slim-64x64.png" download>下载皮肤 PNG</a>
+</div>
+<div class="views">
+<section class="card"><h2>正面</h2><div class="stage"><canvas id="front"></canvas></div></section>
+<section class="card"><h2>背面 · 橘色爱心</h2><div class="stage"><canvas id="back"></canvas></div></section>
+<section class="card"><h2>侧面 · 小灯饰</h2><div class="stage"><canvas id="three"></canvas></div></section>
+</div>
+<div class="notes"><p>拖动旋转，滚轮缩放。默认推荐 Slim；Classic 附在同一包内。<br>普通皮肤遵循方块人体；猫耳花色、灯饰和尾纹用原版纹理表达。</p><p>清爽刘海、聚焦眼神、干净的奶白外套，背后保留爱心。<br><a href="../Cormy-Vanilla-Skins-v3.zip" download>下载完整包</a> · <a href="../reference/design-guide.png">美术参考（不是游戏截图）</a></p></div>
+<p class="status" id="status" aria-live="polite">正在载入皮肤…</p>
+</main>
+<script src="vendor/skinview3d.bundle.js"></script><script>
+const $=id=>document.getElementById(id),params=new URLSearchParams(location.search);
+if(params.get('model')==='classic')$('model').value='classic';if(params.get('version')==='old')$('version').value='old';
+const views=['front','back','three'].map(id=>{
+ const canvas=$(id),stage=canvas.parentElement;
+ const viewer=new skinview3d.SkinViewer({canvas,width:stage.clientWidth,height:stage.clientHeight,fov:35,zoom:.83,renderPaused:false});
+ viewer.background=null;viewer.renderer.setClearColor(0,0);viewer.globalLight.intensity=3;viewer.cameraLight.intensity=.6;
+ viewer.controls.enablePan=false;viewer.controls.enableDamping=true;
+ new ResizeObserver(()=>viewer.setSize(stage.clientWidth,stage.clientHeight)).observe(stage);
+ return {id,viewer};
+});
+let faceCloseup=false,loadSequence=0;
+function camera(){for(const {id,viewer:v}of views){
+ v.playerObject.rotation.set(0,0,0);v.controls.target.set(0,0,0);v.zoom=.83;
+ v.camera.position.set(id==='three'?34:0,0,id==='back'?-66:56);
+ if(id==='front')v.camera.position.z=66;
+ if(faceCloseup){v.controls.target.y=11;v.camera.position.y=11;v.zoom=1.55;}
+ v.controls.update();
+}}
+function pose(){for(const {viewer:v}of views){v.animation=null;v.playerObject.skin.resetJoints();
+ if($('motion').value==='walk')v.animation=new skinview3d.WalkingAnimation();
+ else if($('motion').value==='run')v.animation=new skinview3d.RunningAnimation();
+ else {v.playerObject.skin.leftArm.rotation.z=-.04;v.playerObject.skin.rightArm.rotation.z=.04;}
+}}
+async function load(){const seq=++loadSequence,model=$('model').value,old=$('version').value==='old';
+ const file=old?`../reference/previous-${model}-64x64.png`:`../cormy-${model}-64x64.png`;
+ try{await Promise.all(views.map(({viewer:v})=>v.loadSkin(file,{model:model==='slim'?'slim':'default'})));
+ if(seq!==loadSequence)return;views.forEach(({viewer:v})=>v.playerObject.skin.setOuterLayerVisible($('outer').checked));camera();pose();
+ $('download').href=file;$('status').textContent=`已加载 ${old?'v2':'v3'} · ${model} · 64×64 RGBA · 三个视角使用同一张真实皮肤`;
+ }catch(error){$('status').textContent='载入失败：'+error.message;console.error(error);}
+}
+$('model').onchange=load;$('version').onchange=load;$('motion').onchange=pose;
+$('outer').onchange=()=>views.forEach(({viewer:v})=>v.playerObject.skin.setOuterLayerVisible($('outer').checked));
+$('face').onclick=()=>{faceCloseup=!faceCloseup;$('face').textContent=faceCloseup?'全身视图':'面部特写';camera();};
+load();
+</script></html>

@@ -2,6 +2,8 @@ scripts/build/
 __pycache__/
 verification/vendor/
 preview/
+!minecraft/vanilla-v3/preview/
+!minecraft/vanilla-v3/preview/**
 preview-idle/
 *.log
 .DS_Store
