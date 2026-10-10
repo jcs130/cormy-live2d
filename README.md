@@ -24,6 +24,14 @@
 
 [Agent 自主玩游戏 · 千灯纪](branding/live-cover-v1/cormy-agent-autoplay-cortico-v3.png) 为横版封面，包含“Agent 友好服务器”、本地部署说明和 Cortico 框架标识。封面 PNG 与框架 Logo 参考图保存在 `branding/live-cover-v1/`，没有替换 VTube Studio 模型或直播平台设置。
 
+## Minecraft 普通皮肤
+
+[普通皮肤 v3 完整包](minecraft/vanilla-v3/Cormy-Vanilla-Skins-v3.zip) 包含两种原生 64×64 PNG、实际三维预览与可重建源文件。推荐 [Slim 细手臂](minecraft/vanilla-v3/cormy-slim-64x64.png)，也提供 [Classic 普通手臂](minecraft/vanilla-v3/cormy-classic-64x64.png)。上传时选择对应手臂类型，并开启皮肤第二层。
+
+![普通皮肤 v3 实际贴图渲染](minecraft/vanilla-v3/preview/fullbody.png)
+
+这一版收掉白发和衣服的杂色，重绘琥珀眼、短刘海与袜靴，保留背后橘色爱心和单腿上的橘白尾纹。普通皮肤使用原版方块人体，灯饰和猫耳花色用纹理表现。制作说明在 [README](minecraft/vanilla-v3/README.txt)，美术参考和生成提示在 `reference/`；服务器实际生效需另行验收。
+
 ## 保留的表现
 
 - 16 个表情：自然、微笑、开心笑、害羞、惊讶、思考、得意、委屈、生气、困倦、感动、眨眼、气鼓鼓、慌张、星星眼、爱心。
@@ -73,6 +81,6 @@ Cortico / VTuber 扩展可导入包内 profile。它的模型名是 `Cormy NoTur
 
 ## 来源与许可
 
-角色设计以作者家的橘白猫为灵感，沿用可米的既有原创设计。本次仅发布模型及制作资料；角色、美术与模型素材没有另外变更或声明开放授权，使用范围请向仓库维护者确认。
+角色设计以作者家的橘白猫为灵感，沿用可米的既有原创设计。本仓库保存模型、角色资源及制作资料；角色、美术与模型素材没有另外变更或声明开放授权，使用范围请向仓库维护者确认。
 
 制作脚本按 GPL-3.0 发布，见 `COPYING`。生成工具为 [PSD2Live](https://github.com/tsunehimatoi/psd2live)，运行验证使用 [Live2D Cubism](https://www.live2d.com/sdk/download/web/)，各自遵循原项目许可。本仓库不包含其他项目的角色素材、私人猫照片或厂商运行库。

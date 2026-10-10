@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-11T03:06:42.7404265+08:00",
+  "url": "http://127.0.0.1:53691/minecraft-v3/preview/",
+  "renderer": "skinview3d 3.4.2",
+  "kind": "actual 64x64 PNG on vanilla cuboid geometry",
+  "verified": [
+    "Same PNG visible from front, back and three quarter views",
+    "Face closeup: amber eyes, short fringe and side lantern",
+    "Slim and classic load with their native arm widths",
+    "Walking and running animations render; rear tail motif stays on one leg",
+    "Previous v2 loads in the same viewer for comparison",
+    "No browser error log entries in the final observation"
+  ],
+  "screenshots": [
+    "preview/fullbody.png",
+    "preview/face.png",
+    "preview/walk.png",
+    "preview/run.png",
+    "preview/classic.png",
+    "preview/previous-v2.png"
+  ],
+  "notVerified": [
+    "Server skin propagation",
+    "Live game rendering under armor"
+  ]
+}

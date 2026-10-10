@@ -1,0 +1,160 @@
+{
+  "character": "Cormy / 可米",
+  "version": "3.0.0",
+  "kind": "vanilla-minecraft-skin",
+  "createdAt": "2026-10-10T19:08:30.669151+00:00",
+  "recommended": "cormy-slim-64x64.png",
+  "modelTypes": [
+    "slim",
+    "classic"
+  ],
+  "conceptGenerator": "built-in image_gen",
+  "finalTexture": "Authored native 64x64 UV texels",
+  "prompt": "reference/prompts.json",
+  "validation": "validation.json",
+  "gameSkinApplied": false,
+  "gameServiceTouched": false,
+  "ysmChanged": false,
+  "files": [
+    {
+      "file": "browser-validation.json",
+      "bytes": 907,
+      "sha256": "feda8b635429411a84e48ed3b8f40305bd9d57539ea8e21df300c5d7bd777927"
+    },
+    {
+      "file": "cormy-classic-64x64.png",
+      "bytes": 1142,
+      "sha256": "c3c385f61a786084700279decca8b5723b1169a698e751ef86ad34175b2f34b5"
+    },
+    {
+      "file": "cormy-slim-64x64.png",
+      "bytes": 1149,
+      "sha256": "38be07ab8e93fd8d91866af1de32b0d1da824ac67f09dce9816383f6c7bf8002"
+    },
+    {
+      "file": "preview/classic.png",
+      "bytes": 75775,
+      "sha256": "7908503b213b4060a605f607fe69e69558352fdc2fb7cd10d88923730c56588f"
+    },
+    {
+      "file": "preview/face.png",
+      "bytes": 74418,
+      "sha256": "057f55bc909d72684a9a11f3b564b1d49196707099e282c34fa0f14daa5909ee"
+    },
+    {
+      "file": "preview/fullbody.png",
+      "bytes": 75015,
+      "sha256": "37ced30144b6c6226b1ab49cb9860de1d725a89d53fec39fea1d9fc54b32d3b7"
+    },
+    {
+      "file": "preview/index.html",
+      "bytes": 6149,
+      "sha256": "b5c58b32dd682b927831114ab3ad99a3e27f3b13520c3dc94c70b90c74138f81"
+    },
+    {
+      "file": "preview/previous-v2.png",
+      "bytes": 79121,
+      "sha256": "3fee18a8e8e9dabff7c0bb2453f3ddb07cc920c117c40354b55f35986cec262d"
+    },
+    {
+      "file": "preview/run.png",
+      "bytes": 77582,
+      "sha256": "bd2cf882cf6b21c40cc00b3691b9604bd00ac65c4afa27d803a31e91476adc9f"
+    },
+    {
+      "file": "preview/vendor/SKINVIEW-UTILS-LICENSE.txt",
+      "bytes": 1140,
+      "sha256": "7eb7128de2e4de70932ce370c2c602136b4d7648fce9fc4a50c93fc59be94d94"
+    },
+    {
+      "file": "preview/vendor/SKINVIEW3D-LICENSE.txt",
+      "bytes": 1140,
+      "sha256": "7eb7128de2e4de70932ce370c2c602136b4d7648fce9fc4a50c93fc59be94d94"
+    },
+    {
+      "file": "preview/vendor/skinview3d.bundle.js",
+      "bytes": 477198,
+      "sha256": "e2a60ce607f2169e24b18bfd6e5214113b66f30d92e23f9a021ebbd4b21c08d3"
+    },
+    {
+      "file": "preview/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d"
+    },
+    {
+      "file": "preview/walk.png",
+      "bytes": 76809,
+      "sha256": "6cc0626699cc969f40edad2c057e681f796c1b2a8c7bf93a4b80b38aa516d138"
+    },
+    {
+      "file": "README.txt",
+      "bytes": 2001,
+      "sha256": "0e237601bd725499341ee601a53654fca31585ed2b9571eb7051ef6f17205291"
+    },
+    {
+      "file": "reference/design-guide.png",
+      "bytes": 1724828,
+      "sha256": "99b9b2bce887935a93c6dd6e679d52e6546b8b505db002daf19e34db6c1598ee"
+    },
+    {
+      "file": "reference/previous-classic-64x64.png",
+      "bytes": 1354,
+      "sha256": "cc330d3c5580ed33bb90b7f0a689b39fba6d57cdc1ac85e0e2c4450261a1456d"
+    },
+    {
+      "file": "reference/previous-slim-64x64.png",
+      "bytes": 1383,
+      "sha256": "ae084e82cccf760a4d18dad2f8a3bf3222ef8611889cf5660dbe0832ec67bd7d"
+    },
+    {
+      "file": "reference/prompts.json",
+      "bytes": 2740,
+      "sha256": "d096ccba1bf7d2a4a5974ec1405df35ebf9ffe345d66d2f1d7e6ded6572f24a8"
+    },
+    {
+      "file": "source/build-skins.cjs",
+      "bytes": 8348,
+      "sha256": "52d1a93f3b5f3a1fdc3f9a4f0e7739b8042680678992f46c7f37525e73fb275a"
+    },
+    {
+      "file": "source/package-assets.py",
+      "bytes": 2071,
+      "sha256": "eb75d86fa966ce2f88b71fcaab28a7abb42bec826b08758630d7ad102fa98aad"
+    },
+    {
+      "file": "source/package-lock.json",
+      "bytes": 20132,
+      "sha256": "2798a8ef19dc49aa3487f5833d51b2ed4821263007af7e5145d6c23a17e71423"
+    },
+    {
+      "file": "source/package.json",
+      "bytes": 267,
+      "sha256": "cd6e3cb3e04d540b9ac40925f0cb91cd805370e9d8817cb2cfac2ebb88f18f5e"
+    },
+    {
+      "file": "source/palette.json",
+      "bytes": 473,
+      "sha256": "2bba80bf1f9c81d7dc74028f7c929852752a62a8c90fde3927b1107915a47928"
+    },
+    {
+      "file": "source/serve.cjs",
+      "bytes": 1164,
+      "sha256": "5f0e9cebab0db97a2c0bc302144c0206045a11d2dc61acb80beac483d9cb2b22"
+    },
+    {
+      "file": "source/skin-uv-map.json",
+      "bytes": 25511,
+      "sha256": "84ad8727bc7d3446b894e9a19e4bbed82d927838eb91b228e81c3070ae927f2e"
+    },
+    {
+      "file": "source/validate.cjs",
+      "bytes": 3377,
+      "sha256": "8ee3ac8dbc7d9af51b9afca850d631a826b62d3ce1cd75c00b92d8021c6c782c"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 1307,
+      "sha256": "261abdbaadb61a51ef02ef67398e842f9e9bb033c4b473f0a75a3ce1141dde73"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "cormy-vanilla-skin-source",
+  "version": "3.0.0",
+  "private": true,
+  "engines": {"node": ">=20.9.0"},
+  "scripts": {"build": "node build-skins.cjs", "validate": "node validate.cjs", "preview": "node serve.cjs"},
+  "dependencies": {"sharp": "0.35.5"}
+}

@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-10T19:03:45.146Z",
+  "skins": {
+    "slim": {
+      "file": "cormy-slim-64x64.png",
+      "dimensions": [
+        64,
+        64
+      ],
+      "armWidth": 3,
+      "baseOpaqueTexels": 1568,
+      "outerVisibleTexels": [
+        85,
+        42,
+        19,
+        19,
+        19,
+        28
+      ],
+      "transparentTexels": 2316,
+      "sha256": "38be07ab8e93fd8d91866af1de32b0d1da824ac67f09dce9816383f6c7bf8002"
+    },
+    "classic": {
+      "file": "cormy-classic-64x64.png",
+      "dimensions": [
+        64,
+        64
+      ],
+      "armWidth": 4,
+      "baseOpaqueTexels": 1632,
+      "outerVisibleTexels": [
+        85,
+        42,
+        25,
+        25,
+        19,
+        28
+      ],
+      "transparentTexels": 2240,
+      "sha256": "c3c385f61a786084700279decca8b5723b1169a698e751ef86ad34175b2f34b5"
+    }
+  },
+  "verified": [
+    "64x64 RGBA PNG",
+    "All 6 vanilla base cuboids opaque",
+    "All 6 vanilla overlay cuboids contain authored texels",
+    "Unused UV islands transparent",
+    "Only alpha 0 or 255",
+    "Slim/classic are authored at native 3/4 pixel arm widths",
+    "Head, torso and legs identical across variants"
+  ],
+  "notVerified": [
+    "Minecraft game login and server skin propagation",
+    "Visibility under equipped helmet or armor"
+  ]
+}
