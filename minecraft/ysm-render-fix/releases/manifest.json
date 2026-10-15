@@ -1,0 +1,13 @@
+{
+  "schema": "cormy-model-render-fix/v1",
+  "artifact": "cormy-winefox-cream-1.2.1-preview-cat-depthfix.zip",
+  "sha256": "24cd9a0007ebd480848332defad06f3cd8b2462536314847c049c7e2b9d0222a",
+  "bytes": 1342076,
+  "changedPlanes": 1259,
+  "removedMaskCubes": 55,
+  "nativeSingleplayerVerified": true,
+  "liveServerDeployed": false,
+  "sourceMainSha256": "dc69f6afd3e77fa3647394e82611ac5b4a850ec039194b2bad4589ad9494eedf",
+  "mainSha256": "adae9772b1851f920935ef081d432524c51c068dc6f1bc9bc946c3a21f7a3b4a",
+  "armSha256": "c0092ab7ee1ad08a0f70e8df6681b90d7c6b8b76b15e729038b9e484fc51acf8"
+}
